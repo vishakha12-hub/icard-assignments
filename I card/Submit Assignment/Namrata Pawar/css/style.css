@@ -1,0 +1,699 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 180.25pt; /* 223px */
+    height: 325.75pt;
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-blue {
+    left: -80pt;
+    margin-top: -248.69pt;
+    width: 356.1pt;
+    height: 524.5pt;
+    background-color: rgb(14, 6, 69);
+    position: absolute;
+    top: 159.7pt;
+    transform: skewX(50deg);
+}
+.id-card-wrapper-front .id-yellow {
+    left: 119pt;
+    margin-top: -24.69pt;
+    width: 251.1pt;
+    height: 150.5pt;
+    background-color: rgb(255 185 24);
+    position: absolute;
+    top: 0pt;
+    transform: skewX(44deg);
+}
+
+.id-card-wrapper-front .id-light-yellow {
+    left: 147pt;
+    margin-top: -0.69pt;
+    width: 14.775pt;
+    height: 21.5pt;
+    background-color: rgb(255 248 1 / 87%);
+    position: absolute;
+    top: 18pt;
+
+}
+
+.id-card-wrapper-front .id-dark-yellow {
+    left: -137pt;
+    margin-top: 239.31pt;
+    width: 183.1pt;
+    height: 98.5pt;
+    background-color: rgb(255 185 24);
+    position: absolute;
+    top: -12pt;
+    transform: skewX(48deg);
+}
+.id-card-wrapper-front .id-light-sky-blue {
+    left: 50pt;
+    margin-top: 0.31pt;
+    width: 32.775pt;
+    height: 74.5pt;
+    background-color: rgba(36, 239, 243, 0.87);
+    position: absolute;
+    top: 68pt;
+}
+.id-card-wrapper-front .id-light-blue {
+    left: 104pt;
+    margin-top: -5.69pt;
+    width: 35.775pt;
+    height: 81.5pt;
+    background-color: #252571;
+    position: absolute;
+    top: 66pt;
+}
+.id-card-wrapper-front .id-white {
+    left: 14pt;
+    margin-top: -0.69pt;
+    width: 18.775pt;
+    height: 20.5pt;
+    background-color: rgba(255, 255, 255, 0.87);
+    position: absolute;
+    top: 125pt;
+}
+.id-card-wrapper-front .box {
+    position: absolute;
+    left: 31mm;
+    top: 18mm;
+    width: 15mm;
+    height: 35mm;
+    color: white;
+    border-style: solid;
+    border-width: 0.4mm;
+    border-color: #ffffff;
+    z-index: 0;
+}
+.id-card-wrapper-front .rect1 {
+    left: 150pt;
+    margin-top: 0.31pt;
+    width: 17.775pt;
+    height: 17.5pt;
+    background-color: rgba(36, 239, 243, 0.87);
+    position: absolute;
+    top: 172pt;
+}
+
+.id-card-wrapper-front .rect2 {
+    left: 101pt;
+    margin-top: -10.69pt;
+    width: 64.775pt;
+    height: 73.8pt;
+    background-color: #1e1e61;
+    position: absolute;
+    top: 273pt;
+}
+
+.id-card-wrapper-front .rect3 {
+    left: 63pt;
+    margin-top: -0.69pt;
+    width: 12.775pt;
+    height: 12.5pt;
+    background-color: rgb(255 248 1 / 87%);
+    position: absolute;
+    top: 260pt;
+}
+
+.id-card-wrapper-front .rect4 {
+    left: 104pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 292pt;
+}
+
+.id-card-wrapper-front .rect5 {
+    left: 110.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    top: 292pt;
+}
+
+.id-card-wrapper-front .rect6 {
+    left: 116.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(255, 230, 1, 0.932);
+    position: absolute;
+    top: 292pt;
+}
+.id-card-wrapper-front .rect7 {
+    left: 122.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 292pt;
+}
+.id-card-wrapper-front .rect8 {
+    left: 128.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 166, 1);
+    position: absolute;
+    top: 292pt;
+}
+
+.id-card-wrapper-front .rect9 {
+    left: 134.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 292pt;
+}
+
+.id-card-wrapper-front .rect10 {
+    left: 140.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 292pt;
+}
+.id-card-wrapper-front .rect11 {
+    left: 110.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 285.5pt;
+}
+
+.id-card-wrapper-front .rect12 {
+    left: 110.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 174, 0);
+    position: absolute;
+    top: 298.5pt;
+}
+
+.id-card-wrapper-front .rect13 {
+    left: 122.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 298.5pt;
+}
+
+.id-card-wrapper-front .rect14 {
+    left: 128.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 285.5pt;
+}
+
+.id-card-wrapper-front .rect15 {
+    left: 128.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 298.5pt;
+}
+
+.id-card-wrapper-front .rect16 {
+    left: 134.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 285.5pt;
+}
+
+.id-card-wrapper-front .rect17 {
+    left: 134.5pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 298.5pt;
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt;
+    margin-top: -26pt;
+    margin-left: -135pt;
+}
+
+.org-logo img {
+    max-width: 10.25%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 51.5pt; /* 10px */
+    top: 24.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    width: 23mm;
+    height: 28.75mm;
+    border-radius: -6pt;
+    position: absolute;
+    top: -1.75mm;
+    left: 7pt;
+}
+.user-name {
+    font-size: 1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 43mm;
+    left: 0mm;
+    color: white;
+    width: 65mm;
+}
+
+.id-number {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 50mm;
+    left: 20mm;
+    color: white;
+}
+
+.id-title {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 56mm;
+    left: 14mm;
+    color:white;
+}
+
+.org-name {
+    font-size: -1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 61mm;
+    left: 11mm;
+    color:white;
+}
+
+.org-address {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 67mm;
+    left:19mm;
+    color:white;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 180.25pt; /* 223px */
+    height: 325.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 234.5pt; /* 254px */
+    top: -343.75pt; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.org-logo1 {
+    text-align: center;
+    margin-bottom: 14.25pt;
+    margin-top: 246pt;
+    margin-left: -137pt;
+}
+
+.org-logo1 img {
+    max-width: 13.25%; /* 27% */
+    height: auto;
+}
+.id-card-wrapper-back .id-dark-yellow-bottom {
+    left: -241pt;
+    margin-top: -29.69pt;
+    width: 295.1pt;
+    height: 163.5pt;
+    background-color: rgb(255 185 24);
+    position: absolute;
+    top: 0pt;
+    transform: skewX(133deg);
+}
+
+.id-card-wrapper-back .id-yellow-bottom {
+    left: 99pt;
+    margin-top: 210.31pt;
+    width: 100.1pt;
+    height: 158.5pt;
+    background-color: rgb(255, 179, 0);
+    position: absolute;
+    top: 16pt;
+    transform: skewX(134deg);
+}
+
+.id-card-wrapper-back .id-white-bottom {
+    left: 138pt;
+    margin-top: -0.69pt;
+    width: 17.775pt;
+    height: 20.8pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 16pt;
+    z-index: 1;
+}
+
+.id-card-wrapper-back .id-dark-blue1-bottom {
+    left: 50pt;
+    margin-top: -255.75pt;
+    width: 308.5pt;
+    height: 546.5pt;
+    background-color: rgb(14, 6, 69);
+    position: absolute;
+    top: 37.7pt;
+    transform: skewX(134deg);
+}
+
+.id-card-wrapper-back .id-yellow2-bottom {
+    left: 107pt;
+    margin-top: -0.69pt;
+    width: 15.775pt;
+    height: 23.5pt;
+    background-color: rgba(255, 230, 1, 0.932);
+    position: absolute;
+    top: 290pt;
+}
+.id-card-wrapper-back .id-rect1 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 233pt;
+}
+
+.id-card-wrapper-back .id-rect2 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 179, 0);
+    position: absolute;
+    top: 239pt;
+}
+
+.id-card-wrapper-back .id-rect3 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 234, 0);
+    position: absolute;
+    top: 245pt;
+}
+
+.id-card-wrapper-back .id-rect4 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 251pt;
+}
+
+.id-card-wrapper-back .id-rect5 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 179, 0);
+    position: absolute;
+    top: 257pt;
+}
+
+.id-card-wrapper-back .id-rect6 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 263pt;
+}
+
+.id-card-wrapper-back .id-rect7 {
+    left: 81pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 269pt;
+}
+.id-card-wrapper-back .id-rect8 {
+    left: 75pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 239pt;
+}
+
+.id-card-wrapper-back .id-rect9 {
+    left: 75pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 179, 0);
+    position: absolute;
+    top: 251pt;
+}
+.id-card-wrapper-back .id-rect10 {
+    left: 75pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 257pt;
+}
+.id-card-wrapper-back .id-rect11 {
+    left: 75pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(255, 255, 255, 0.932);
+    position: absolute;
+    top: 263pt;
+}
+.id-card-wrapper-back .id-rect12 {
+    left: 87pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 257pt;
+}
+.id-card-wrapper-back .id-rect13 {
+    left: 87pt;
+    margin-top: -0.69pt;
+    width: 4.775pt;
+    height: 4.5pt;
+    background-color: rgb(255, 234, 0);
+    position: absolute;
+    top: 263pt;
+}
+.id-card-wrapper-back .id-rect14{
+    left: 131pt;
+    margin-top: -0.69pt;
+    width: 11.775pt;
+    height: 11.5pt;
+    background-color: rgb(255, 247, 1);
+    position: absolute;
+    top: 235pt;
+}
+.id-card-wrapper-back .id-rect15{
+    left: 11pt;
+    margin-top: -0.69pt;
+    width: 12.775pt;
+    height: 12.5pt;
+    background-color: rgba(1, 255, 238, 0.932);
+    position: absolute;
+    top: 125pt;
+}
+.id-card-wrapper-back .id-rect16{
+    left: 27pt;
+    margin-top: -0.69pt;
+    width: 7.775pt;
+    height: 6.5pt;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 235pt;
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; /* 72px */
+    padding: 6pt; /* 8px */
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+    z-index:0;
+    color:white;
+}
+
+.qr-code {
+    position: absolute;
+    left: 34.5pt; /* 10px */
+    top: 12.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: -18mm; /* 20mm */
+    height: 9mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -10.25mm; /* -19mm */
+    left: 36pt; /* 56px */
+}
+
+.id-emergency-contact {
+    margin-top: -89mm;
+    margin-left: 10mm;
+    font-size: 3.5mm;
+    color: white;
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-blood-group {
+    margin-top: -79mm;
+    margin-left: 10mm;
+    font-size: 3.5mm;
+    color: white;
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-dob{
+    margin-top: -72mm;
+    margin-left: 10mm;
+    font-size: 3.5mm;
+    color: white;
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-issue-date{
+    margin-top: -66mm;
+    margin-left: 10mm;
+    font-size: 3.5mm;
+    color: white;
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+
+.id-expiry-date{
+    margin-top: -60mm;
+    margin-left: 10mm;
+    font-size: 3.5mm;
+    color: white;
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+
+.id-policy {
+    margin-top: -52mm;
+    margin-left: 6mm;
+    font-size: 3.5mm;
+    color: white;
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+
