@@ -1,0 +1,270 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+.id-card-wrapper-front {
+    position: relative;
+    left: 90mm;
+    top: 36mm;
+    width: 54.00mm;
+    height: 85.60mm;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+.id-card-wrapper-front .id-card-background {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 54.00mm;
+    height: 85.60mm;
+    overflow: hidden;
+    background-color: white;
+}
+.id-card-wrapper-front .box {
+    position: absolute;
+    left: -7mm;
+    top: 18mm;
+    width: 82mm;
+    height: 82mm;
+    border-radius: 50%;
+    transform: rotate(207deg);
+    box-shadow: 0px 25px 0 0 #343232;
+  }
+
+  .id-card-wrapper-front .box1 {
+    position: absolute;
+    left: -8mm;
+    top: 15mm;
+    width: 82mm;
+    height: 87.6mm;
+    background-color: #343232;
+    transform: rotate(45deg);
+    border-radius: 43mm 29mm 0mm 55mm;
+  }
+
+.id-card-wrapper-front .tri1{
+    position: absolute;
+    left: -6mm;
+    top: 12mm;
+    width: 63mm;
+    height: 86mm;
+    border-radius: 50%;
+    transform: rotate(207deg);
+    box-shadow: 0px 25px 0 0 #D69344;
+}
+.id-card-wrapper-front .tri1-shadow{
+    position: absolute;
+    left: 3mm;
+    top: 7mm;
+    width: 57mm;
+    height: 67mm;
+    border-radius: 50%;
+    transform: rotate(233deg);
+    box-shadow: 3px 10px 0 0 #BA8040;
+}
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.org-logo {
+    position: relative;
+    left: 0mm;
+    top: -13mm;
+    text-align: center;
+    /* background-color: black; */
+}
+
+.org-logo img {
+    max-width: 40.25%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 7.5pt; /* 10px */
+    top: 7.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    width: 18.75mm; /* 25mm */
+    height: 15.75mm; /* 21mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: 5.25mm; /* 7mm */
+    left: 42pt; /* 56px */
+}
+
+.user-name {
+    font-size: 1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 35mm;
+    left: 11mm;
+}
+
+.id-number {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 21mm;
+}
+
+.id-title {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 48mm;
+    left: 12mm;
+}
+
+.org-name {
+    font-size: -1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 54mm;
+    left: 8mm;
+}
+
+.org-address {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 60mm;
+    left: 16mm;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    left: 150mm;
+    top: -50mm;
+    width: 54.00mm;
+    height: 85.60mm;
+    /* background-color: rgb(80, 43, 226); */
+}
+.id-card-wrapper-back .id-card-background {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 54.00mm;
+    height: 85.60mm;
+    overflow: hidden;
+    /* background-color: green; */
+}
+.id-card-wrapper-back .id-card-background .box {
+    position: absolute;
+    left: -18mm;
+    top: 0mm;
+    width: 326mm;
+    transform: rotate(35deg);
+    height: 155.6mm;
+    background-color: #343232;
+}
+.id-card-wrapper-back .id-card-background .tri2{
+    position: absolute;
+    left: -18mm;
+    top: 70mm;
+    width: 80mm;
+    height: 80mm;
+    border-radius: 50%;
+    transform: rotate(219deg);
+    background-color: white;
+}
+.id-card-wrapper-back .id-card-background .tri1 {
+    position: absolute;
+    left: -25mm;
+    top: 66mm;
+    width: 88mm;
+    height: 80mm;
+    border-radius: 50%;
+    transform: rotate(219deg);
+    background-color: #D69344;
+}
+.id-card-wrapper-back .tri1-shadow{
+    position: absolute;
+    left: -28mm;
+    top: 73mm;
+    width: 85mm;
+    height: 64mm;
+    border-radius: 50%;
+    transform: rotate(155deg);
+    box-shadow: 3px 6px 0 0 #BA8040;
+}
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 40pt; /* 72px */
+    padding: 6pt; /* 8px */
+}
+.id-card-wrapper-back .org-logo {
+    position: relative;
+    left: 0mm;
+    top: 60mm;
+    text-align: center;
+    /* background-color: black; */
+}
+
+.id-card-wrapper-back .org-logo img {
+    max-width: 40.25%; /* 27% */
+    height: auto;
+}
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 7.5pt; /* 10px */
+    top: 7.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm; /* 20mm */
+    height: 15mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -13.25mm; /* -19mm */
+    left: 42pt; /* 56px */
+}
+
+.id-emergency-contact,
+.id-blood-group,
+.id-dob,
+.id-dates,
+.id-barcode,
+.id-policy {
+    font-size: 0.8333em;
+    margin-bottom: 1mm;
+}
