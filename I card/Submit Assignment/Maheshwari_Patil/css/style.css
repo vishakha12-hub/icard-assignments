@@ -1,0 +1,380 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt;
+    /* 223px */
+    height: 237.75pt;
+    /* 317px */
+    margin: 17.25pt;
+    /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff;
+    /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #1a1717f5;
+    height: 100%;
+}
+
+.id-card-wrapper-front .box1 {
+    position: absolute;
+    top: -25mm;
+    left: -8mm;
+    width: 0mm;
+    height: 0mm;
+    border-style: solid;
+    border-width: 32pt 116pt 85pt;
+    border-color: #fba218;
+    border-end-start-radius: 1mm;
+    transform: rotate(-39deg);
+}
+
+.id-card-wrapper-front .box2 {
+    position: absolute;
+    height: 10mm;
+    width: 37mm;
+    top: 44mm;
+    left: -10mm;
+    transform: rotate(-42deg);
+    background-color: black;
+}
+
+.id-card-wrapper-front .box3 {
+    position: absolute;
+    height: 4mm;
+    width: 5mm;
+    top: 35mm;
+    left: 12mm;
+    background-color: black;
+}
+
+.id-card-wrapper-front .box4 {
+    position: absolute;
+    height: 4mm;
+    width: 37mm;
+    transform: rotate(-42deg);
+    background-color: black;
+    top: 47mm;
+    left: -19mm;
+}
+
+.id-card-wrapper-front .box5 {
+    position: absolute;
+    width: 16mm;
+    height: 6mm;
+    right: 5mm;
+    top: -1mm;
+    background: #724e1e;
+    transform: perspective(36px) rotatex(-56deg);
+}
+
+.id-card-wrapper-front .box6 {
+    position: absolute;
+    top: 5mm;
+    right: 9mm;
+    border-left: 4mm solid transparent;
+    border-right: 5mm solid transparent;
+    border-top: 4mm solid #bc7c2d;
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt;
+    /* 19px */
+}
+
+.org-logo img {
+    position: absolute;
+    width: 13mm;
+    height: auto;
+    top: -10mm;
+    left: 24mm;
+}
+
+.user-photo {
+    position: absolute;
+    left: 7.5pt;
+    /* 10px */
+    top: 7.5pt;
+    /* 10px */
+    height: 75pt;
+    /* 100px */
+    width: 75pt;
+    /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    width: 24mm;
+    height: 24mm;
+    border-radius: 50%;
+    position: absolute;
+    top: 0mm;
+    left: 14mm;
+    border: 1.5mm solid #7f570f;
+}
+
+.user-name {
+    font-size: 4mm;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 30mm;
+    position: relative;
+    top: 25mm;
+    left: 15mm;
+    color: aliceblue;
+}
+
+.id-title {
+    position: relative;
+    bottom: 29mm;
+    left: 7mm;
+    /* font-style: normal; */
+    font-size: 3mm;
+    margin-bottom: 21mm;
+    text-align: center;
+    color: #f4f8ff94;
+}
+
+.id-number {
+    font-size: 3mm;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 21mm;
+    position: relative;
+    top: -1mm;
+    left: 22mm;
+    color: aliceblue;
+}
+
+.org-name {
+    font-size: 5mm;
+    font-weight: bold;
+    position: relative;
+    top: -92mm;
+    left: 6mm;
+    color: aliceblue;
+}
+
+.org-address {
+    font-size: 3mm;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 21mm;
+    position: relative;
+    top: -51mm;
+    left: 19mm;
+    color: aliceblue;
+}
+
+.name1 {
+    position: relative;
+    bottom: 70mm;
+    left: 6mm;
+    /* font-style: normal; */
+    font-size: 2mm;
+    text-align: center;
+    color: #f4f8ff94;
+}
+
+.address1 {
+    position: relative;
+    bottom: 64mm;
+    left: 6mm;
+    /* font-style: normal; */
+    font-size: 2mm;
+    text-align: center;
+    color: #f4f8ff94;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt;
+    /* 223px */
+    height: 237.75pt;
+    /* 317px */
+    margin: 17.25pt;
+    /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff;
+    /* 1px */
+    overflow: hidden;
+    left: 190.5pt;
+    /* 254px */
+    top: -255.75pt;
+    /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #1a1717f5;
+    height: 100%;
+}
+
+.id-card-wrapper-back .box7 {
+    position: absolute;
+    top: -7mm;
+    left: -10mm;
+    width: 0mm;
+    height: 1mm;
+    border-style: solid;
+    border-width: 0pt 74pt 56pt;
+    border-color: #fba218;
+    border-end-start-radius: 28mm;
+    transform: rotate(-209deg);
+}
+
+.id-card-wrapper-back .box8 {
+    position: absolute;
+    top: -5mm;
+    right: -24mm;
+    width: 0mm;
+    height: 9mm;
+    border-style: solid;
+    border-width: 0pt 85pt 49pt;
+    border-color: #cd8728;
+    border-end-start-radius: 0mm;
+    transform: rotate(48deg);
+}
+
+.id-card-wrapper-back .box9 {
+    position: absolute;
+    top: 58mm;
+    right: -24mm;
+    width: 0mm;
+    height: 9mm;
+    border-style: solid;
+    border-width: 0pt 126pt 2pt;
+    border-color: #bb7d29;
+    border-end-start-radius: 0mm;
+    transform: rotate(-22deg);
+}
+
+.id-card-wrapper-back .box10 {
+    position: absolute;
+    top: 72mm;
+    right: -8mm;
+    width: 0mm;
+    height: 0mm;
+    border-style: solid;
+    border-width: 0pt 104pt 74pt;
+    border-color: #724e1e;
+    border-end-start-radius: 0mm;
+    transform: rotate(158deg);
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt;
+    /* 54px */
+}
+
+.qr-code {
+    position: absolute;
+    left: -35.5pt;
+    top: 5.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm;
+    /* 20mm */
+    height: 12mm;
+    /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -14.25mm;
+    /* -19mm */
+    left: 42pt;
+    /* 56px */
+}
+
+.free-img {
+    position: absolute;
+    top: -3mm;
+    left: 23mm;
+    width: 14mm;
+    height: 14mm;
+}
+
+.company-name {
+    font-size: 5mm;
+    font-weight: bold;
+    position: relative;
+    top: -19mm;
+    left: 5mm;
+    color: #FF4500;
+}
+
+.id-emergency-contact {
+    font-size: 3.5mm;
+    position: relative;
+    top: 21mm;
+    left: 7mm;
+    color: #d3c9ce;
+}
+
+.id-blood-group {
+    font-size: 3.5mm;
+    position: relative;
+    top: 24mm;
+    left: 7mm;
+    color: #d3c9ce;
+}
+
+.id-dob {
+    font-size: 3.5mm;
+    position: relative;
+    top: 27mm;
+    left: 7mm;
+    color: #d3c9ce;
+}
+
+.id-issue-date {
+    font-size: 3.5mm;
+    position: relative;
+    top: 30mm;
+    left: 7mm;
+    color: #d3c9ce;
+
+}
+
+.id-expiry-date {
+    font-size: 3.5mm;
+    position: relative;
+    top: 30mm;
+    left: 7mm;
+    color: #d3c9ce;
+}
+
+.id-policy {
+    position: relative;
+    bottom: -35mm;
+    left: 4mm;
+    font-style: normal;
+    font-size: 2mm;
+    text-align: center;
+    color: #f4f8ff94;
+}
