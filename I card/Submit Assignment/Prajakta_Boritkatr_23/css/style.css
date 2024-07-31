@@ -259,7 +259,7 @@ body {
 .id-card-wrapper-back .id-card-content {
     position: absolute;
     top: 54pt;
-    padding: 6pt;
+    padding: 53pt;
     z-index: 2;
 }
 
@@ -292,43 +292,59 @@ body {
     left: 42pt; /* 56px */
 }
 
-.id-issue-date{
-	font-size: 0.6222em;
-    margin-bottom: 1mm;
-    position: relative;
-    left: 47px;
-    top: 132px;
-    color: rgb(0 0 0);
-}
-
-.id-expiry-date{
-	font-size: 0.6222em;
-    margin-bottom: 1mm;
-    position: relative;
-    left: 47px;
-    top: 132px;
-    color: rgb(0 0 0);
-}
-	
-
-.id-policy{
-	font-size: 0.6222em;
-    margin-bottom: 1mm;
-    position: relative;
-    left: 6px;
-    top: 50px;
-    color: #e72b5c;
-}
-
-
-.id-emergency-contact,
-.id-blood-group,
-.id-dob,
-.id-barcode
-{
+.id-emergency-contact{
     font-size: 0.8333em;
-    margin-bottom: 1mm;
-    position: relative;
-    left: 23px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 2mm;
+    right: -11mm;
+    line-height: 1.5;
     color: white;
+}
+
+
+.id-blood-group{
+         font-size: 0.8em;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 13.8mm;
+    right: 3mm;
+    color: white;
+}
+.id-dob{
+	font-size: 0.8em;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 19mm;
+    color: white;
+    right: -9mm;
+}
+.id-issue-date{
+       font-size: 0.7em;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 53mm;
+    right: -9mm;
+
+}
+.id-expiry-date{
+	font-size: 0.7em;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 57mm;
+    right: -10.5mm;
+}
+.id-barcode{
+    font-size: 0.8333em;
+    margin-bottom: 5mm;
+}
+.id-policy {
+   margin-bottom: 5mm;
+    position: absolute;
+    top: 42mm;
+    right: -16mm;
+    left: 8mm;
+    font-size: 6.5pt;
+    text-align: center;
+    color: #e72b5c;
 }
