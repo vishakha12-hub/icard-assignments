@@ -17,8 +17,8 @@ body {
 /* Visiting Card Styles */
 .id-card-wrapper-front {
     position: relative;
-    width: 180.25pt; /* 223px */
-    height: 325.75pt;
+    width: 170.25pt; /* 223px */
+    height: 290.75pt;
     margin: 17.25pt; /* 23px */
     background-color: #ffffff;
     border: 0.75pt solid #ffffff; /* 1px */
@@ -32,9 +32,9 @@ body {
 
 .id-card-wrapper-front .id-dark-blue {
     left: -80pt;
-    margin-top: -248.69pt;
-    width: 356.1pt;
-    height: 524.5pt;
+    margin-top: -278.69pt;
+    width: 321.1pt;
+    height: 521.5pt;
     background-color: rgb(14, 6, 69);
     position: absolute;
     top: 159.7pt;
@@ -64,7 +64,7 @@ body {
 
 .id-card-wrapper-front .id-dark-yellow {
     left: -137pt;
-    margin-top: 239.31pt;
+    margin-top: 206.31pt;
     width: 183.1pt;
     height: 98.5pt;
     background-color: rgb(255 185 24);
@@ -124,23 +124,22 @@ body {
 .id-card-wrapper-front .rect2 {
     left: 101pt;
     margin-top: -10.69pt;
-    width: 64.775pt;
+    width: 57.775pt;
     height: 73.8pt;
     background-color: #1e1e61;
     position: absolute;
-    top: 273pt;
+    top: 259pt;
 }
 
 .id-card-wrapper-front .rect3 {
-    left: 63pt;
+    left: 72pt;
     margin-top: -0.69pt;
     width: 12.775pt;
     height: 12.5pt;
     background-color: rgb(255 248 1 / 87%);
     position: absolute;
-    top: 260pt;
+    top: 249pt;
 }
-
 .id-card-wrapper-front .rect4 {
     left: 104pt;
     margin-top: -0.69pt;
@@ -148,7 +147,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 
 .id-card-wrapper-front .rect5 {
@@ -158,7 +157,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 174, 0);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 
 .id-card-wrapper-front .rect6 {
@@ -168,7 +167,7 @@ body {
     height: 4.5pt;
     background-color: rgba(255, 230, 1, 0.932);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 .id-card-wrapper-front .rect7 {
     left: 122.5pt;
@@ -177,7 +176,7 @@ body {
     height: 4.5pt;
     background-color: rgba(1, 255, 238, 0.932);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 .id-card-wrapper-front .rect8 {
     left: 128.5pt;
@@ -186,7 +185,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 166, 1);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 
 .id-card-wrapper-front .rect9 {
@@ -196,7 +195,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 
 .id-card-wrapper-front .rect10 {
@@ -206,7 +205,7 @@ body {
     height: 4.5pt;
     background-color: rgba(1, 255, 238, 0.932);
     position: absolute;
-    top: 292pt;
+    top: 274pt;
 }
 .id-card-wrapper-front .rect11 {
     left: 110.5pt;
@@ -215,7 +214,7 @@ body {
     height: 4.5pt;
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 285.5pt;
+    top: 267.5pt;
 }
 
 .id-card-wrapper-front .rect12 {
@@ -225,7 +224,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 174, 0);
     position: absolute;
-    top: 298.5pt;
+    top: 280.5pt;
 }
 
 .id-card-wrapper-front .rect13 {
@@ -235,7 +234,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 217, 0);
     position: absolute;
-    top: 298.5pt;
+    top: 280.5pt;
 }
 
 .id-card-wrapper-front .rect14 {
@@ -245,7 +244,7 @@ body {
     height: 4.5pt;
     background-color: rgba(1, 255, 238, 0.932);
     position: absolute;
-    top: 285.5pt;
+    top: 267.5pt;
 }
 
 .id-card-wrapper-front .rect15 {
@@ -255,7 +254,7 @@ body {
     height: 4.5pt;
     background-color: rgba(1, 255, 238, 0.932);
     position: absolute;
-    top: 298.5pt;
+    top: 280.5pt;
 }
 
 .id-card-wrapper-front .rect16 {
@@ -265,7 +264,7 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 217, 0);
     position: absolute;
-    top: 285.5pt;
+    top: 267.5pt;
 }
 
 .id-card-wrapper-front .rect17 {
@@ -275,18 +274,18 @@ body {
     height: 4.5pt;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 298.5pt;
+    top: 280.5pt;
 }
 
 .org-logo {
     text-align: center;
     margin-bottom: 14.25pt;
-    margin-top: -26pt;
-    margin-left: -135pt;
+    margin-top: -25pt;
+    margin-left: -81pt;
 }
 
 .org-logo img {
-    max-width: 10.25%; /* 27% */
+    max-width: 20.25%; /* 27% */
     height: auto;
 }
 
@@ -338,21 +337,20 @@ body {
     margin-bottom: 18mm;
     position: absolute;
     top: 56mm;
-    left: 14mm;
+    left: 16mm;
     color:white;
 }
 
 .org-name {
-    font-size: -1.1667em;
+    font-size: 0.8333em;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 61mm;
-    left: 11mm;
-    color:white;
+    top: 62mm;
+    left: 16.5mm;
+    color: white;
 }
-
 .org-address {
     font-size: 0.8333em;
     font-weight: bold;
@@ -360,20 +358,20 @@ body {
     margin-bottom: 18mm;
     position: absolute;
     top: 67mm;
-    left:19mm;
+    left:21mm;
     color:white;
 }
 
 .id-card-wrapper-back {
     position: relative;
-    width: 180.25pt; /* 223px */
-    height: 325.75pt; /* 317px */
+    width: 170.25pt; /* 223px */
+    height: 290.75pt; /* 317px */
     margin: 17.25pt; /* 23px */
     background-color: #ffffff;
     border: 0.75pt solid #ffffff; /* 1px */
     overflow: hidden;
     left: 234.5pt; /* 254px */
-    top: -343.75pt; /* -341px */
+    top: -310.75pt; /* -341px */
 }
 
 .id-card-wrapper-back .id-card-background {
@@ -381,17 +379,6 @@ body {
     height: 100%;
 }
 
-.org-logo1 {
-    text-align: center;
-    margin-bottom: 14.25pt;
-    margin-top: 246pt;
-    margin-left: -137pt;
-}
-
-.org-logo1 img {
-    max-width: 13.25%; /* 27% */
-    height: auto;
-}
 .id-card-wrapper-back .id-dark-yellow-bottom {
     left: -241pt;
     margin-top: -29.69pt;
@@ -405,7 +392,7 @@ body {
 
 .id-card-wrapper-back .id-yellow-bottom {
     left: 99pt;
-    margin-top: 210.31pt;
+    margin-top: 187.31pt;
     width: 100.1pt;
     height: 158.5pt;
     background-color: rgb(255, 179, 0);
@@ -427,7 +414,7 @@ body {
 
 .id-card-wrapper-back .id-dark-blue1-bottom {
     left: 50pt;
-    margin-top: -255.75pt;
+    margin-top: -277.75pt;
     width: 308.5pt;
     height: 546.5pt;
     background-color: rgb(14, 6, 69);
@@ -437,13 +424,13 @@ body {
 }
 
 .id-card-wrapper-back .id-yellow2-bottom {
-    left: 107pt;
+    left: 111pt;
     margin-top: -0.69pt;
-    width: 15.775pt;
-    height: 23.5pt;
+    width: 12.775pt;
+    height: 19.5pt;
     background-color: rgba(255, 230, 1, 0.932);
     position: absolute;
-    top: 290pt;
+    top: 265pt;
 }
 .id-card-wrapper-back .id-rect1 {
     left: 81pt;
@@ -570,13 +557,13 @@ body {
     top: 263pt;
 }
 .id-card-wrapper-back .id-rect14{
-    left: 131pt;
+    left: 125pt;
     margin-top: -0.69pt;
     width: 11.775pt;
     height: 11.5pt;
     background-color: rgb(255, 247, 1);
     position: absolute;
-    top: 235pt;
+    top: 226pt;
 }
 .id-card-wrapper-back .id-rect15{
     left: 11pt;
@@ -621,6 +608,18 @@ body {
     color:white;
 }
 
+.org-logo1{
+    text-align: center;
+    margin-bottom: 14.25pt;
+    margin-top: 206pt;
+    margin-left: -108pt;
+}
+
+.org-logo1 img {
+    max-width: 18.25%; /* 27% */
+    height: auto;
+}
+
 .qr-code {
     position: absolute;
     left: 34.5pt; /* 10px */
@@ -632,25 +631,26 @@ body {
 }
 
 .qr-code img {
-    width: -18mm; /* 20mm */
-    height: 9mm; /* 16mm */
+    width: -18mm;
+    height: 12mm;
     border-radius: 5pt;
     position: absolute;
-    top: -10.25mm; /* -19mm */
-    left: 36pt; /* 56px */
+    top: -12.25mm;
+    left: 36pt;
 }
 
 .id-emergency-contact {
-    margin-top: -89mm;
+    margin-top: -77.5mm;
     margin-left: 10mm;
     font-size: 3.5mm;
     color: white;
     width: 50mm;
-    z-index:1;
-    position:absolute;
+    z-index: 1;
+    position: absolute;
+    line-height: 11px;
 }
 .id-blood-group {
-    margin-top: -79mm;
+    margin-top: -65.5mm;
     margin-left: 10mm;
     font-size: 3.5mm;
     color: white;
@@ -659,7 +659,7 @@ body {
     position:absolute;
 }
 .id-dob{
-    margin-top: -72mm;
+    margin-top: -59mm;
     margin-left: 10mm;
     font-size: 3.5mm;
     color: white;
@@ -668,7 +668,7 @@ body {
     position:absolute;
 }
 .id-issue-date{
-    margin-top: -66mm;
+    margin-top: -53mm;
     margin-left: 10mm;
     font-size: 3.5mm;
     color: white;
@@ -678,7 +678,7 @@ body {
 }
 
 .id-expiry-date{
-    margin-top: -60mm;
+    margin-top: -47mm;
     margin-left: 10mm;
     font-size: 3.5mm;
     color: white;
@@ -688,12 +688,12 @@ body {
 }
 
 .id-policy {
-    margin-top: -52mm;
+    margin-top: -39mm;
     margin-left: 6mm;
-    font-size: 3.5mm;
+    font-size: 3.2mm;
     color: white;
     width: 50mm;
-    z-index:1;
-    position:absolute;
+    z-index: 1;
+    position: absolute;
 }
 
