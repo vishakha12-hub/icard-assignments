@@ -21,8 +21,9 @@ body {
     height: 289.75pt;
     margin: 17.25pt;
     background-color: #ffffff;
-    border: 0.75pt solid black;
+    border: -0.25pts solid black;
     overflow: hidden;
+	box-shadow: 2px 1px 18px black;
 }
 
 .id-card-wrapper-front .id-card-background {
@@ -249,10 +250,11 @@ body {
     height: 289.75pt;
     margin: 17.25pt;
     background-color: #ffffff;
-    border: 0.75pt solid black;
+    border: -0.25pt solid black;
     overflow: hidden;
     left:190.5pt;
     top: -308.75pt;
+	box-shadow: 2px 1px 18px black;
 }
 
 .id-card-wrapper-back .id-card-background {
