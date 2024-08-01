@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I-Card</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+    <!-- ID Card Wrapper -->
+    <div class="id-card-wrapper-front">
+        <!-- Card Background Front Side -->
+        <div class="id-card-background">
+            <div class="dark-blue-rect"></div>
+            <div class="dark-blue-tri"></div>
+            <div class="f-cube-left-1"></div>
+            <div class="f-cube-left-2"></div>
+            <div class="f-cube-left-3"></div>
+            <div class="f-cube-left-4"></div>
+            <div class="f-cube-right-1"></div>
+            <div class="f-cube-right-2"></div>
+            <div class="f-cube-right-3"></div>
+            <div class="bottom-line"></div>
+        </div>
+
+        <!--Content of ID Card Front Side-->
+        <div class="id-card-content">
+            <!-- Logo -->
+            <div class="org-logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            
+            <!-- Photo -->
+            <div class="user-photo">
+                <img src="img/profile.jpg" alt="Photo">
+            </div>
+
+            <!-- Name --><!--Additional Span hear for sirname class-->
+            <div class="user-name">Machhindra <span class="sirname">Kolape</span></div>
+            
+            <!-- ID Number -->
+            <div class="id-number">ID:<span class="id-no"> 123 456 789</span></div>
+            
+            <!-- Job Title/Grade/Class -->
+            <div class="id-title">Jr.Software Engineer </div> <!-- or Grade: 10 -->
+
+            <!-- Organization/School/College Information -->
+            <div class="org-name">Apnasite It Services</div>
+            <div class="org-address">Kalewadi,Pune</div>
+        </div>
+    </div>
+
+    <!-- ID Card Wrapper Back Side -->
+    <div class="id-card-wrapper-back">
+        <!-- Card Background Back Side -->
+        <div class="id-card-background">
+            <div class="red-rect"></div>
+            <div class="red-tri"></div>
+            <div class="b-cube-left-1"></div>
+            <div class="b-cube-left-2"></div>
+            <div class="b-cube-left-3"></div>
+            <div class="b-cube-left-4"></div>
+            <div class="b-cube-right-1"></div>
+            <div class="b-cube-right-2"></div>
+            <div class="b-cube-right-3"></div>
+            <div class="b-cube-right-4"></div>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+        <!-- Content of ID Card Back Side -->
+        <div class="id-card-content">
+
+            <div class="qr-code">
+                <img src="img/qr.jpg" alt="Photo">
+            </div>
+
+            <!-- Emergency Contact Information -->
+            <div class="id-emergency-contact">
+                Emergency Contact: <span class="contact-name">Abc</span><br>
+                Phone: <span class="contact-name">+91 7498213367</span>
+            </div>
+
+            <!-- Blood Group -->
+            <div class="id-blood-group">
+                 Blood Group: <span class="group">B+</span>
+            </div>
+
+            <!-- Date of Birth (for Student) -->
+            <div class="id-dob">
+                Date of Birth: <span class="d-birth">15/09/97</span> 
+            </div> <!-- Only for Student -->
+
+            <!-- Card Issue and Expiry Date -->
+            <div class="id-issue-date">
+              Issue Date: <span class="d-issue">01/01/2024</span>
+            </div> 
+
+            <div class="id-expiry-date">
+               Expiry Date: <span class="d-expiry">01/01/2025</span>
+            </div>
+            <!-- Policies or Instructions -->
+            <div class="id-policy">
+                This card is property of Apnasite It Services. If found, please return to the above address.
+            </div>
+        </div>
+    </div>     
+</body>
+</html>
