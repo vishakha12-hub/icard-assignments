@@ -56,15 +56,15 @@ body {
     top: 0pt;
 }
 .rect1{
-    z-index:2;
+    z-index: 2;
     transform: rotate(90deg);
-    left: -38pt;
+    left: -39pt;
     margin-top: -0.69pt;
-    width: 82pt;
-    height: 2mm;
+    width: 77pt;
+    height: 5mm;
     background-color: rgb(249 249 249);
     position: absolute;
-    top: 34pt;
+    top: 31pt;
 }
 .rect{
     z-index:2;
@@ -142,9 +142,9 @@ body {
 
 .org-logo img {
     top: -7mm;
-    left: 10mm;
+    left: 13mm;
     position: relative;
-    max-width: 31.25%;
+    max-width: 38.25%;
     height: auto;
 }
 
@@ -159,23 +159,23 @@ body {
 }
 
 .user-photo img {
-    width:21.75mm; /* 25mm */
-    height:20.75mm; /* 21mm */
-    border-radius:36pt;
+    width: 21.75mm;
+    height: 20.75mm;
+    border-radius: 36pt;
     position: absolute;
     z-index: 3;
-    top:9.25mm; /* 7mm */
-    left:36pt; /* 56px */
+    top: 9.25mm;
+    left: 45pt;
 }
 
 .user-name {
-    font-size:18pt;
+    font-size: 13pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30mm;
     position: absolute;
     top: 35mm;
-    left:6mm;
+    left: 13mm;
 }
 
 .id-number {
@@ -185,17 +185,17 @@ body {
     margin-bottom: 18mm;
     position: absolute;
     top:51mm;
-    left:18mm;
+    left:20mm;
 }
 
 .id-title {
     font-weight: 100;
-    font-size:12pt;
+    font-size: 8pt;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
     top: 43mm;
-    left:9mm;
+    left: 17mm;
 }
 
 .org-name {
@@ -204,7 +204,7 @@ body {
     margin-bottom: 18mm;
     position: absolute;
     top: 58mm;
-    left: 8mm;
+    left:9mm;
 }
 
 .org-address {
@@ -214,7 +214,7 @@ body {
     margin-bottom: 18mm;
     position: absolute;
     top: 63mm;
-    left: 16mm;
+    left:17mm;
 }
 
 .id-card-wrapper-back {
@@ -242,8 +242,8 @@ body {
     width: 0mm;
     height: 70mm;
     border-style: solid;
-    border-width: 67pt 0 63pt 68pt;
-    border-color:rgb(231, 31, 95);
+    border-width: 67pt 0 62pt 68pt;
+    border-color: rgb(231, 31, 95);
     position: absolute;
     border-top-left-radius: 31mm;
     transform: rotate(-132deg);
@@ -317,13 +317,13 @@ body {
 }
 
 .id-card-wrapper-back .id-pink-bottom {
-    left:39mm;
-    top:-31mm;
+    left: 39mm;
+    top: -31mm;
     width: 0mm;
     height: 0mm;
     border-style: solid;
-    border-width:66pt 0 63pt 68pt;
-    border-color:rgb(135, 17, 96);
+    border-width: 64pt 0 63pt 65pt;
+    border-color: rgb(135, 17, 96);
     position: absolute;
     border-top-right-radius: 25mm;
     transform: rotate(-131deg);
@@ -377,12 +377,12 @@ body {
 }
 
 .qr-code img {
-    width: 17mm; /* 20mm */
-    height: 16mm; /* 16mm */
+    width: 20mm;
+    height: 18mm;
     border-radius: 5pt;
     position: absolute;
-    top: -14.25mm; /* -19mm */
-    left: 42pt; /* 56px */
+    top: -14.25mm;
+    left: 52pt;
 }
 .id-emergency-contact{
     font-size:3mm;
