@@ -173,7 +173,7 @@ body {
     margin-bottom: 30mm;
     position: relative;
     top: 32mm;
-    left: 11mm;
+    left: 15mm;
 
 }
 
@@ -183,7 +183,7 @@ body {
     margin-bottom: 18mm;
     position: relative;
     top: 6mm;
-    left: 5mm;
+    left: 16mm;
 }
 
 .phone-number{
@@ -209,30 +209,30 @@ body {
     text-align: center;
     margin-bottom: 18mm;
     position: relative;
-    top: -62mm;
-    left: 12mm;
+    top: -20mm;
+    left: 15mm;
 }
 
 .org-name {
-    font-size: 2mm;
+    font-size: 3mm;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: relative;
-    top: -55mm;
-    left: 10mm;
-    color: #ffffff;
+    top: -30mm;
+    left: 16mm;
+    color: #0f0e0e;
 }
 
 .org-address {
-    font-size: 2mm;
+    font-size: 3mm;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: relative;
-    top: -73mm;
-    left: 10mm;
-    color: #ffffff;
+    top: -48mm;
+    left: 16mm;
+    color: #0b0b0b;
 }
 
 .id-card-wrapper-back {
@@ -324,54 +324,43 @@ body {
 }
 
 .id-emergency-contact{
-    top: -11mm;
-    height: 10mm;
-    left: 2mm;
-    position: relative;
+    font-size:3mm;
+    position:relative;
+    top:-8mm;
 }
- .id-blood-group{
-    top: -10mm;
-    height: 10mm;
+.id-blood-group{
+    font-size: 3mm;
+    position: absolute;
+    top: 11mm;
     left: 2mm;
-    position: relative;
 }
 .id-dob{
-    top: -13mm;
-    height: 10mm;
     left: 2mm;
-    position: relative;
-}
-.id-dates{
-    top: -10mm;
-    height: 10mm;
-    left: 2mm;
-    position: relative;
+    font-size: 3mm;
+    position: absolute;
+    top: 17mm;
 }
 .id-issue-date{
-    top: -16mm;
-    height: 10mm;
     left: 2mm;
-    position: relative;  
+    font-size: 3mm;
+    position: absolute;
+    top: 24mm;
 }
 .id-expiry-date{
-    top: -21mm;
-    height: 10mm;
     left: 2mm;
-    position: relative; 
+    font-size: 3mm;
+    position: absolute;
+    top: 30mm;
 }
 .id-barcode{
-    top: -10mm;
-    height: 10mm;
     left: 2mm;
-    position: relative;
+    font-size: 3mm;
+    position: absolute;
+    top: 29mm;
 }
-.id-policy{
-    top: -23mm;
-    height: 10mm;
+.id-policy {
     left: 2mm;
-    position: relative;
-    font-size: 2.5mm;
-    
+    font-size: 2.7mm;
+    position: absolute;
+    top: 39mm;
 }
-    
-
