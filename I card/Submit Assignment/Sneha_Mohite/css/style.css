@@ -116,7 +116,7 @@ body {
 }
 
 .org-logo img {
-    max-width: 20.25%; /* 27% */
+    max-width: 33.25%; /* 27% */
     height: auto;
 }
 .org-logo1 {
@@ -160,16 +160,7 @@ body {
     top: 1.25mm;
     left: 38pt;
 }
-.title-name{
-	font-size: 3mm;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30mm;
-    position: absolute;
-    top: 34mm;
-    left: 23mm;
-	color:rgb(21 34 113 / 96%);
-}
+
 .user-name {
     font-size: 1.1667em;
     font-weight: bold;
@@ -192,13 +183,13 @@ body {
 }
 
 .id-number {
-    font-size: 2.5mm;
+    font-size: 3.5mm;
 	font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 45mm;
-    left: 21mm;
+    top: 62mm;
+    left: 17mm;
 
 }
 .id-title{
@@ -238,8 +229,8 @@ body {
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 60mm;
-    left: 8mm;
+    top: 67mm;
+    left: 9mm;
 }
 
 .org-address {
@@ -248,8 +239,8 @@ body {
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 64mm;
-    left: 10mm;
+    top: 72mm;
+    left: 14mm;
 }
 
 .id-card-wrapper-back {
@@ -371,12 +362,34 @@ body {
     top: 67mm;
     left: -1mm;
 }
-.id-emergency-contact,
-.id-blood-group,
-.id-dob,
-.id-dates,
-.id-barcode,
-.id-policy {
-    font-size: 0.8333em;
+.id-emergency-contact{
+	  font-size: 0.8333em;
     margin-bottom: 5mm;
+}
+.id-phone{
+	font-size:0.8333em;
+	margin-bottom:5mm;
+}
+.id-blood-group{
+	  font-size: 0.8333em;
+    margin-bottom: 5mm;
+}
+
+.id-dob{
+	  font-size: 0.8333em;
+    margin-bottom: 5mm;
+}
+.id-issue-date{
+	  font-size: 0.8333em;
+    margin-bottom: -1mm;
+}
+.id-expiry-date{
+	  font-size: 0.8333em;
+    margin-bottom: 5mm;
+}
+.id-policy {
+	font-size: 8pt;
+    margin-bottom: 5mm;
+    margin-top: 3mm;
+	margin-left:2mm;
 }
