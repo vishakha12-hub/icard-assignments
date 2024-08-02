@@ -277,7 +277,7 @@ body {
   font-size: 0.7em;
   top: 22mm;
   text-align: center;
-  left: 9mm;
+  left: 12mm;
 }
 
 .id-card-wrapper-back .id-card-content .id-emergency-contact-phone {
@@ -286,7 +286,7 @@ body {
   font-size: 0.7em;
   top: 26mm;
   text-align: center;
-  left: 9mm;
+  left: 12mm;
 }
 .id-card-wrapper-back .id-card-content .id-blood-group {
   position: absolute;
@@ -294,7 +294,7 @@ body {
   font-size: 0.7em;
   top: 30mm;
   text-align: center;
-  left: 9mm;
+  left: 12mm;
 }
 
 .id-card-wrapper-back .id-card-content .id-dob {
@@ -302,20 +302,20 @@ body {
   font-size: 0.7em;
   top: 34mm;
   text-align: center;
-  left: 9mm;
+  left: 12mm;
 }
 .id-card-wrapper-back .id-card-content .id-issue-date {
   position: absolute;
   font-size: 0.7em;
   top: 38mm;
   text-align: center;
-  left: 9mm;
+  left: 12mm;
 }
 
 .id-card-wrapper-back .id-card-content .id-expiry-date {
   position: absolute;
   font-size: 0.7em;
   top: 42mm;
-  left: 9mm;
+  left: 12mm;
   width: 50mm;
 }
