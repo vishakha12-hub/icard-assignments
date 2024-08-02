@@ -134,35 +134,35 @@ body {
 }
 
 .user-name {
-    font-size: 4mm;
+    font-size: 5mm;
     font-weight: bold;
     /* text-align: center; */
-    margin-bottom: 30mm;
+    margin-bottom: 26mm;
     position: relative;
-    top: 25mm;
-    left: 15mm;
+    top: 26mm;
+    left: 10mm;
     color: aliceblue;
 }
 
 .id-title {
     position: relative;
-    bottom: 29mm;
-    left: 7mm;
+    bottom: 25mm;
+    left: 6mm;
     /* font-style: normal; */
-    font-size: 3mm;
+    font-size: 3.5mm;
     margin-bottom: 21mm;
     text-align: center;
     color: #f4f8ff94;
 }
 
 .id-number {
-    font-size: 3mm;
+    font-size: 4mm;
     font-weight: bold;
     /* text-align: center; */
     margin-bottom: 21mm;
     position: relative;
-    top: -1mm;
-    left: 22mm;
+    top: 11mm;
+    left: 19mm;
     color: aliceblue;
 }
 
@@ -176,34 +176,14 @@ body {
 }
 
 .org-address {
-    font-size: 3mm;
+    font-size: 4mm;
     font-weight: bold;
     /* text-align: center; */
     margin-bottom: 21mm;
     position: relative;
-    top: -51mm;
-    left: 19mm;
+    top: -39mm;
+    left: 14mm;
     color: aliceblue;
-}
-
-.name1 {
-    position: relative;
-    bottom: 70mm;
-    left: 6mm;
-    /* font-style: normal; */
-    font-size: 2mm;
-    text-align: center;
-    color: #f4f8ff94;
-}
-
-.address1 {
-    position: relative;
-    bottom: 64mm;
-    left: 6mm;
-    /* font-style: normal; */
-    font-size: 2mm;
-    text-align: center;
-    color: #f4f8ff94;
 }
 
 .id-card-wrapper-back {
@@ -290,8 +270,8 @@ body {
 
 .qr-code {
     position: absolute;
-    left: -35.5pt;
-    top: 5.5pt;
+    left: 23pt;
+    top: 37.5pt;
     height: 75pt;
     width: 75pt;
     border-radius: 50%;
@@ -311,52 +291,49 @@ body {
     /* 56px */
 }
 
-.free-img {
-    position: absolute;
-    top: -3mm;
-    left: 23mm;
-    width: 14mm;
-    height: 14mm;
-}
-
 .company-name {
-    font-size: 5mm;
-    font-weight: bold;
-    position: relative;
-    top: -19mm;
-    left: 5mm;
+    font-size: 4mm;
+    position: absolute;
+    top: 15mm;
+    left: 10mm;
+    width: 39mm;
     color: #FF4500;
 }
 
 .id-emergency-contact {
     font-size: 3.5mm;
     position: relative;
-    top: 21mm;
-    left: 7mm;
+    top: 19mm;
+    left: 9mm;
     color: #d3c9ce;
 }
+.id-emergency-contact p{
+    position: relative;
+    padding-top:3mm ;
+}
+
 
 .id-blood-group {
     font-size: 3.5mm;
     position: relative;
-    top: 24mm;
-    left: 7mm;
+    top: 22mm;
+    left: 9mm;
     color: #d3c9ce;
 }
 
 .id-dob {
     font-size: 3.5mm;
     position: relative;
-    top: 27mm;
-    left: 7mm;
+    top: 25mm;
+    left: 9mm;
     color: #d3c9ce;
 }
 
 .id-issue-date {
     font-size: 3.5mm;
     position: relative;
-    top: 30mm;
-    left: 7mm;
+    top: 28mm;
+    left: 9mm;
     color: #d3c9ce;
 
 }
@@ -364,17 +341,11 @@ body {
 .id-expiry-date {
     font-size: 3.5mm;
     position: relative;
-    top: 30mm;
-    left: 7mm;
+    top: 31mm;
+    left: 9mm;
     color: #d3c9ce;
 }
 
 .id-policy {
-    position: relative;
-    bottom: -35mm;
-    left: 4mm;
-    font-style: normal;
-    font-size: 2mm;
-    text-align: center;
-    color: #f4f8ff94;
+   
 }
