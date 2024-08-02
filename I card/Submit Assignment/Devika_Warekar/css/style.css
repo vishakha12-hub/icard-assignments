@@ -129,7 +129,7 @@ body {
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 42mm;
+    top: 43mm;
     left: 21mm;
     color: #636363;
 }
@@ -242,16 +242,17 @@ width: 24mm;
     height: 21mm;
     border-radius: 5pt;
     position: absolute;
-    top: 0.75mm;
+    top: -11.25mm;
     left: 39pt;
 }
 
 .id-emergency-contact{
-    font-size: 0.8333em;
+font-size: 0.7em;
     margin-bottom: 5mm;
     position: absolute;
-    top: -10mm;
-    right: -38mm;
+    top: 17.5mm;
+    right: -37mm;
+    line-height: 3.5mm;
 }
 
 
@@ -259,15 +260,15 @@ width: 24mm;
    font-size: 0.7em;
     margin-bottom: 5mm;
     position: absolute;
-    top: 34mm;
-    right: -48mm;
+    top: 36.5mm;
+    right: -34mm;
 }
 .id-dob{
  font-size: 0.7em;
     margin-bottom: 5mm;
     position: absolute;
-    top: 34mm;
-    right: -27mm;
+    top: 33mm;
+    right: -37.5mm;
 }
 .id-issue-date{
     font-size: 0.7em;
@@ -280,7 +281,7 @@ width: 24mm;
 	font-size: 0.7em;
     margin-bottom: 5mm;
     position: absolute;
-    top: 28mm;
+    top: 29mm;
     right: -36.5mm;
 }
 .id-barcode{
