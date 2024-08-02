@@ -23,7 +23,8 @@ body {
   background-color: #ffffff;
   border: 0.75pt solid #ffffff; /* 1px */
   overflow: hidden;
-  box-shadow: -7mm 10mm 8mm -2mm rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .id-card-wrapper-front .id-card-background {
@@ -166,7 +167,7 @@ body {
   overflow: hidden;
   left: 68.02mm; /* 254px */
   top: -90.5mm; /* -341px */
-  box-shadow: -7mm 10mm 8mm -2mm rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
