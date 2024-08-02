@@ -245,7 +245,7 @@ body {
 
 .id-card-wrapper-back .id-card-content .qr-code {
   position: absolute;
-  left: 3.5mm; /* 10px */
+  left: 4.5mm; /* 10px */
   top: 14mm; /* 10px */
   height: 75pt; /* 100px */
   width: 75pt; /* 100px */
