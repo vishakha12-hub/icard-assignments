@@ -94,6 +94,9 @@ body {
 .org-logo img {
   max-width: 20.25%; /* 27% */
   height: auto;
+  top: -1mm;
+  left: 0mm;
+  position: relative;
 }
 
 .user-photo {
@@ -270,7 +273,6 @@ body {
 .id-contact-info {
   font-size: 2mm;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 18mm;
   position: absolute;
   top: 42mm;
@@ -292,41 +294,39 @@ body {
   height: 17mm; /* 16mm */
   border-radius: 5pt;
   position: absolute;
-  top: -23.25mm; /* -19mm */
+  top: -43.25mm; /* -19mm */
   left: 42pt; /* 56px */
 }
 
 .id-emergency-contact {
   font-size: 3mm;
-  font-weight: bold;
-  text-align: center;
   margin-bottom: 30mm;
   position: absolute;
-  top: -16mm;
-  left: 4mm;
+  top: -1mm;
+  left: 11mm;
+  line-height: 5mm;
   color: black;
   width: 36mm;
 }
 
 .id-blood-group {
   font-size: 3mm;
-  font-weight: bold;
-  text-align: center;
   margin-bottom: 30mm;
   position: absolute;
-  top: -9mm;
-  left: -16mm;
+  top: 11mm;
+  left: 11mm;
+  line-height: 3mm;
   color: black;
   width: 65mm;
 }
 .id-dob {
   font-size: 3mm;
-  /*font-weight: bold;*/
+  /* font-weight: bold; */
   text-align: center;
   margin-bottom: 30mm;
   position: absolute;
-  top: -5mm;
-  left: 4mm;
+  top: 16mm;
+  left: 11mm;
   color: black;
   width: 35mm;
 }
@@ -353,12 +353,12 @@ body {
 }
 .id-policy {
   margin-bottom: 2mm;
-  font-size: 3mm;
-  /*font-weight: bold;*/
+  font-size: 2mm;
+  /* font-weight: bold; */
   text-align: center;
-  /*margin-bottom: 30mm;*/
+  /* margin-bottom: 30mm; */
   position: absolute;
-  top: 23mm;
+  top: 33mm;
   left: 6mm;
   color: black;
   width: 47mm;
@@ -367,12 +367,11 @@ body {
 .id-issue-date {
   margin-bottom: 2mm;
   font-size: 3mm;
-  /*font-weight: bold;*/
-  text-align: center;
-  /*margin-bottom: 30mm;*/
+  /* font-weight: bold; */
+  /* margin-bottom: 30mm; */
   position: absolute;
-  top: 33mm;
-  left: 9mm;
+  top: 21.7mm;
+  left: 11mm;
   color: black;
   width: 35mm;
 }
@@ -380,12 +379,11 @@ body {
 .id-expiry-date {
   margin-bottom: 2mm;
   font-size: 3mm;
-  /*font-weight: bold;*/
-  text-align: center;
-  /*margin-bottom: 30mm;*/
+  /* font-weight: bold; */
+  /* margin-bottom: 30mm; */
   position: absolute;
-  top: 37mm;
-  left: 9mm;
+  top: 27mm;
+  left: 11mm;
   color: black;
   width: 36mm;
 }
