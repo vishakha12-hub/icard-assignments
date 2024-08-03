@@ -331,12 +331,60 @@ body {
     left: 42pt; /* 56px */
 }
 
-.id-emergency-contact,
-.id-blood-group,
-.id-dob,
-.id-dates,
-.id-barcode,
+.id-emergency-contact {
+    margin-top: -6mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index: 1;
+    position: absolute;
+    line-height: 23px;
+}
+.id-blood-group {
+    margin-top: 7.3mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-dob{
+    margin-top: 14mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-issue-date{
+    margin-top: 20mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+
+.id-expiry-date{
+    margin-top: 26mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:18;
+    position:absolute;
+}
+
 .id-policy {
-    font-size: 7pt;
-    margin-bottom: 2mm;
+    margin-top: 32mm;
+    margin-left: 8mm;
+    font-size: 2.8mm;
+    color: rgb(0, 0, 0);
+    width: 45mm;
+    z-index:15;
+    position:absolute;
 }
