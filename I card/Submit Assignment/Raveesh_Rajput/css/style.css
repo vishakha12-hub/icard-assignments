@@ -71,9 +71,9 @@ body {
 
 .org-logo {
     position: relative;
-    left: 3mm;
+    left: 18mm;
     top: 1mm;
-    text-align: center;
+    /* text-align: center; */
     /* background-color: black; */
 }
 
