@@ -62,11 +62,12 @@ body {
 
 .org-logo {
     text-align: center;
-    margin-bottom: 14.25pt; /* 19px */
+    margin-bottom: -5.75pt;
+    margin-top: -3mm;
 }
 
 .org-logo img {
-    max-width: 20.25%; /* 27% */
+    max-width: 46.25%; /* 27% */
     height: auto;
 }
 
@@ -81,12 +82,12 @@ body {
 }
 
 .user-photo img {
-    width: 18.75mm; /* 25mm */
-    height: 15.75mm; /* 21mm */
+    width: 18.75mm;
+    height: 20.75mm;
     border-radius: 5pt;
     position: absolute;
-    top: 5.25mm; /* 7mm */
-    left: 42pt; /* 56px */
+    top: 5.25mm;
+    left: 50pt;
 }
 
 .user-name {
@@ -187,15 +188,17 @@ body {
 }
 
 /* Content Styles */
-.id-card-content {
+.id-card-wrapper-front .id-card-content {
     position: absolute;
-    top: 40.5pt; /* 54px */
+    top: 40.5pt; 
+    text-align: center;/* 54px */
 }
 
 .id-card-wrapper-back .id-card-content {
     position: absolute;
     top: 54pt; /* 72px */
-    padding: 6pt; /* 8px */
+    padding: 6pt;
+    text-align: center; /* 8px */
 }
 
 .id-contact-info {
@@ -219,20 +222,69 @@ body {
 }
 
 .qr-code img {
-    width: 15mm; /* 20mm */
-    height: 12mm; /* 16mm */
+    width: 33mm;
+    height: 31mm;
     border-radius: 5pt;
     position: absolute;
-    top: -14.25mm; /* -19mm */
-    left: 42pt; /* 56px */
+    top: -14.25mm;
+    left: 26pt;
+    text-align: center;
+
 }
 
-.id-emergency-contact,
-.id-blood-group,
-.id-dob,
-.id-dates,
-.id-barcode,
-.id-policy {
+.id-card-wrapper-back .id-emergency-contact {
+    font-size: 12px;
+    margin-bottom: 39mm;
+    position: absolute;
+    top: 16mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back  .id-blood-group{
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 4mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back  .id-dob{
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 4mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back .id-issue-date {
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 46mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back .id-expiry-date {
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 42mm;
+    text-align: center;
+}
+
+/* 
+.id-barcode{
     font-size: 0.8333em;
     margin-bottom: 5mm;
+    position: absolute;
+    top: 4mm;
+    text-align: center;
+} */
+
+.id-policy {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 25mm;
+    margin-left: 3mm;
+    margin-right: 3mm;
 }
