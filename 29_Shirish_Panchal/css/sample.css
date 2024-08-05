@@ -76,6 +76,17 @@
     position: absolute;
     left: 104mm;
     top: 53mm;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+
+.id-card-wrapper-front .id-card-content .border{
+    position: absolute;
+    left: 102mm;
+    top: 51mm;
+    width: 120px;
+    height: 120px;
     border: 2mm solid #925d1f;
     border-radius: 50%;
     z-index: 3;
@@ -191,6 +202,7 @@
     z-index: 3;
 
 }
+
 
 .id-card-wrapper-front .id-card-content .org-logo{
     position: absolute;
