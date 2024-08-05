@@ -154,7 +154,7 @@ body {
 .qr-code {
     position: absolute;
     top: 220pt;
-    left: 25pt;
+    left: 29pt;
 }
 
 .qr-code img {
@@ -225,7 +225,7 @@ body {
 
 .id-expiry-date {
     position: absolute;
-    top: 80pt;
+    top: 82pt;
     left:33pt;
     font-size: 0.8em;
 }
@@ -242,6 +242,7 @@ body {
     top: 40pt;
     left: 51pt;
     font-size:  0.8em;
+    line-height: 15pt;
 
 }
 
@@ -249,7 +250,7 @@ body {
     position: absolute;
     top: 110pt;
     left: 12pt;
-    font-size:  0.8em;
+    font-size:  0.7em;
 
 }
 
