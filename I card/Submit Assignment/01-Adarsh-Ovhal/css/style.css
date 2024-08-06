@@ -171,7 +171,7 @@ border-top-right-radius: 0mm;
     height: 30mm;
     top: -10mm;
     left: -4mm;
-    background: rgba(0, 35, 65, 0.877);
+    background: rgb(0, 36, 65);
     
     position: absolute;
     z-index: 2;
@@ -226,19 +226,21 @@ border-top-right-radius: 0mm;
 .id-number {
     position: relative;
     top: 106mm;
-    left: 35mm;
+    left: 35.5mm;
     color: rgb(77, 78, 78);
     font-size: 8pt;
     z-index: 4;
+    justify-content: center;
 }
 
 .id-dob{
     position: relative;
     left:33mm;
-    top:94mm;
+    top:90mm;
     color: rgb(77, 78, 78);
     font-size: 8pt;
     z-index: 4;
+    justify-content: center;
 }
 
 .phone{
@@ -248,6 +250,7 @@ border-top-right-radius: 0mm;
     color: rgb(77, 78, 78);
     font-size: 8pt;
     z-index: 4;
+    justify-content: center;
 }
 
 .email{
@@ -257,6 +260,7 @@ border-top-right-radius: 0mm;
     color: rgb(77, 78, 78);
     font-size: 8pt;
     z-index: 4;
+    justify-content: center;
 }
 
 .id-title {
@@ -352,13 +356,39 @@ border-top-right-radius: 0mm;
 
 }
 
-.id-emergency-contact{
+.id-emergency-contact strong{
     position: relative;
-    left:113mm;
+    left:118mm;
+    top:85mm;
+    text-align: center;
+    
+    z-index: 4;
+}
+
+.id-emergency-contact b{
+    position: relative;
+    left:118mm;
     top:84mm;
     text-align: center;
     z-index: 4;
 }
+
+.id-emergency-contact p{
+    position: relative;
+    left:126mm;
+    top:80mm;
+    text-align: center;
+    z-index: 4;
+}
+
+.id-emergency-contact i{
+    position: relative;
+    left:118mm;
+    top:84mm;
+    text-align: center;
+    z-index: 4;
+}
+
 .id-blood-group{
     position: relative;
     left:118mm;
@@ -383,7 +413,7 @@ border-top-right-radius: 0mm;
 .id-policy{
     position: relative;
     left:110mm;
-    top:104mm;
+    top:102mm;
     font-size: 09pt;
     color: gray;
     z-index: 4;
