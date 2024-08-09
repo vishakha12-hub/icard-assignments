@@ -1,0 +1,686 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 159.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color:white;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+   left: -36pt;
+    margin-top: -0.69pt;
+    width: 206.775pt;
+    height: 35.5pt;
+    background-color: black;
+    position: absolute;
+    top: 0pt;
+
+}
+
+.id-card-wrapper-front .id-pink {
+    left: -11pt;
+    margin-top: 26.34pt;
+    width: 92.775pt;
+    height: 8.5pt;
+    background-color: rgba(17,133,132,255);
+    transform: skewy(-12deg);
+    position: absolute;
+    top: 0pt;
+
+}
+
+.id-card-wrapper-front .id-light-pink {
+   left: 81pt;
+    margin-top: 28.31pt;
+    width: 96.775pt;
+    height: 8.5pt;
+    background-color: rgba(17,133,132,255);
+    transform: skewy(-166deg);
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-front .id-dark-green {
+   left: -11pt;
+    margin-top: 34.31pt;
+    width: 93.775pt;
+    height: 10.5pt;
+    background-color: rgba(16,155,154,255);
+    transform: skewy(-12deg);
+    position: absolute;
+    top: 0pt;
+}
+user agent stylesheet
+div {
+}
+.id-card-wrapper-front .id-green {
+   left: 82pt;
+    margin-top: 36.31pt;
+    width: 93.775pt;
+    height: 10.5pt;
+    background-color: rgba(16,155,154,255);
+    transform: skewy(-166deg);
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-front .rect1 {
+   left: -10pt;
+    margin-top: 44.31pt;
+    width: 91.775pt;
+    height: 5.5pt;
+    background-color: black;
+    transform: skewy(-192deg);
+    position: absolute;
+    top: 0pt;
+}
+
+.id-card-wrapper-front .rect2{
+    left: 73pt;
+    margin-top: 41.31pt;
+    width: 16.775pt;
+    height: 3.5pt;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-front .rect3{
+    left: 82pt;
+    margin-top: 46.31pt;
+    width: 93.775pt;
+    height: 14.5pt;
+    background-color: #d9d5d5;
+    transform: skewy(-166deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 0;
+
+
+}
+.id-card-wrapper-front .rect4 {
+    left: 82pt;
+    margin-top: 46.31pt;
+    width: 93.775pt;
+    height: 3.5pt;
+    background-color: #c2bdbd;
+    transform: skewy(-165deg);
+    position: absolute;
+    top: 0pt;
+
+
+}
+.id-card-wrapper-front .rect5 {
+    left: 80pt;
+    margin-top: 59.31pt;
+    width: 98.775pt;
+    height: 5.5pt;
+    background-color: #000000;
+    transform: skewy(-164deg);
+    position: absolute;
+    top: 0pt;
+
+}
+.id-card-wrapper-front .rect6 {
+    left: -36pt;
+    margin-top: 207.31pt;
+    width: 206.775pt;
+    height: 35.5pt;
+    background-color: black;
+    position: absolute;
+    top: 0pt;
+
+
+}
+.id-card-wrapper-front .rect7 {
+   left: -22pt;
+    margin-top: 206.34pt;
+    width: 98.775pt;
+    height: 8.5pt;
+    background-color: rgba(17, 133, 132, 255);
+    transform: skewy(14deg);
+    position: absolute;
+    top: -1pt;
+    z-index: 1;
+}
+.id-card-wrapper-front .rect8 {
+   left: 76pt;
+    margin-top: 206.31pt;
+    width: 96.775pt;
+    height: 8.5pt;
+    background-color: rgba(17,133,132,255);
+    transform: skewy(-193deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-front .rect9 {
+  left: -28pt;
+    margin-top: 195.31pt;
+    width: 103.775pt;
+    height: 10.5pt;
+    background-color:rgba(16,155,154,255);
+    transform: skewy(14deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-front .rect10 {
+    left: 74pt;
+    margin-top: 197.31pt;
+    width: 93.775pt;
+    height: 10.5pt;
+    background-color:rgba(16,155,154,255);
+    transform: skewy(-193deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+
+}
+.id-card-wrapper-front .rect11{
+    left: -17pt;
+    margin-top: 182.31pt;
+    width: 93.775pt;
+    height: 15.5pt;
+    background-color: #d9d5d5;
+    transform: skewy(-345deg);
+    position: absolute;
+    top: 0pt;
+
+}
+.id-card-wrapper-front .rect12{
+   left: -18pt;
+    margin-top: 193.31pt;
+    width: 93.775pt;
+    height: 3.5pt;
+    background-color: #c2bdbd;
+    transform: skewy(-346deg);
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-front .rect13 {
+    left: -17pt;
+    margin-top: 178.31pt;
+    width: 93.775pt;
+    height: 5.5pt;
+    background-color: #000000;
+    transform: skewy(-165deg);
+    position: absolute;
+    top: 0pt;
+
+}
+.id-card-wrapper-front .rect14{
+    left: 67pt;
+    margin-top: 197.31pt;
+    width: 16.775pt;
+    height: 3.5pt;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-front .rect15 {
+    left: 76pt;
+    margin-top: 190.31pt;
+    width: 105.775pt;
+    height: 9.5pt;
+    background-color: #000000;
+    transform: skewy(-193deg);
+    position: absolute;
+    top: 0pt;
+
+}
+
+
+.org-logo {
+   text-align: center;
+    margin-bottom: 37.25pt;
+    margin-top: 24mm;
+}
+
+.org-logo img {
+    max-width: 29.25%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 10.5pt;
+    top: 1.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+  
+position: absolute;
+    left: 40.5pt;
+    top: 17.5pt;
+    height: 47pt;
+    width: 50pt;
+    border-radius: 16%;
+    object-fit: cover;
+
+}
+
+.user-name {
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 29mm;
+    left: 17mm;
+    color: pink;
+}
+
+.id-number {
+    font-size: 6pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 34mm;
+    left: 22mm;
+}
+
+.id-title {
+    font-size: 6pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 38mm;
+    left: 16mm;
+}
+
+.org-name {
+    font-size: 6pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 43mm;
+    left: 17mm;
+}
+
+.org-address {
+    font-size: 5pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 47mm;
+    left: 22mm;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 159.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: white;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 190.5pt; /* 254px */
+    top: -255.75pt; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: white;
+    height: 100%;
+}
+.id-card-wrapper-back .id-dark-pink {
+   left: -36pt;
+    margin-top: -0.69pt;
+    width: 206.775pt;
+    height: 35.5pt;
+    background-color: black;
+    position: absolute;
+    top: 0pt;
+
+}
+
+.id-card-wrapper-back .id-pink {
+    left: -11pt;
+    margin-top: 26.34pt;
+    width: 92.775pt;
+    height: 8.5pt;
+    background-color: rgba(17,133,132,255);
+    transform: skewy(-12deg);
+    position: absolute;
+    top: 0pt;
+
+}
+
+.id-card-wrapper-back .id-light-pink {
+   left: 81pt;
+    margin-top: 28.31pt;
+    width: 96.775pt;
+    height: 8.5pt;
+    background-color: rgba(17,133,132,255);
+    transform: skewy(-166deg);
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-back .id-dark-green {
+   left: -11pt;
+    margin-top: 34.31pt;
+    width: 93.775pt;
+    height: 10.5pt;
+    background-color:rgba(16,155,154,255) ;
+    transform: skewy(-12deg);
+    position: absolute;
+    top: 0pt;
+}
+user agent stylesheet
+div {
+}
+.id-card-wrapper-back .id-green {
+   left: 82pt;
+    margin-top: 36.31pt;
+    width: 93.775pt;
+    height: 10.5pt;
+    background-color:rgba(16,155,154,255);
+    transform: skewy(-166deg);
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-back .rect1 {
+   left: -10pt;
+    margin-top: 44.31pt;
+    width: 91.775pt;
+    height: 5.5pt;
+    background-color: black;
+    transform: skewy(-192deg);
+    position: absolute;
+    top: 0pt;
+}
+
+.id-card-wrapper-back .rect2{
+    left: 73pt;
+    margin-top: 41.31pt;
+    width: 16.775pt;
+    height: 3.5pt;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-back .rect3{
+    left: 82pt;
+    margin-top: 46.31pt;
+    width: 93.775pt;
+    height: 14.5pt;
+    background-color: #d9d5d5;
+    transform: skewy(-166deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 0;
+
+
+}
+.id-card-wrapper-back .rect4 {
+    left: 82pt;
+    margin-top: 46.31pt;
+    width: 93.775pt;
+    height: 3.5pt;
+    background-color: #c2bdbd;
+    transform: skewy(-165deg);
+    position: absolute;
+    top: 0pt;
+
+
+}
+.id-card-wrapper-back .rect5 {
+    left: 80pt;
+    margin-top: 59.31pt;
+    width: 98.775pt;
+    height: 5.5pt;
+    background-color: #000000;
+    transform: skewy(-164deg);
+    position: absolute;
+    top: 0pt;
+
+}
+.id-card-wrapper-back .rect6 {
+    left: -36pt;
+    margin-top: 207.31pt;
+    width: 206.775pt;
+    height: 35.5pt;
+    background-color: black;
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-back .rect7 {
+   left: -22pt;
+    margin-top: 206.34pt;
+    width: 98.775pt;
+    height: 8.5pt;
+    background-color: rgb(1 130 133);
+    transform: skewy(13deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-back .rect8 {
+   left: 76pt;
+    margin-top: 206.31pt;
+    width: 96.775pt;
+    height: 8.5pt;
+    background-color: rgb(1 130 133);
+    transform: skewy(-193deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-back .rect9 {
+  left: -28pt;
+    margin-top: 195.31pt;
+    width: 103.775pt;
+    height: 10.5pt;
+    background-color: rgba(16,155,154,255);
+    transform: skewy(14deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-back .rect10 {
+    left: 74pt;
+    margin-top: 197.31pt;
+    width: 93.775pt;
+    height: 10.5pt;
+    background-color: rgba(16,155,154,255);
+    transform: skewy(-193deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+
+}
+.id-card-wrapper-back .rect11{
+    left: -17pt;
+    margin-top: 182.31pt;
+    width: 93.775pt;
+    height: 15.5pt;
+    background-color: #d9d5d5;
+    transform: skewy(-345deg);
+    position: absolute;
+    top: 0pt;
+
+}
+.id-card-wrapper-back .rect12{
+   left: -18pt;
+    margin-top: 193.31pt;
+    width: 93.775pt;
+    height: 3.5pt;
+    background-color: #c2bdbd;
+    transform: skewy(-346deg);
+    position: absolute;
+    top: 0pt;
+}
+.id-card-wrapper-back .rect13 {
+    left: -17pt;
+    margin-top: 178.31pt;
+    width: 93.775pt;
+    height: 5.5pt;
+    background-color: #000000;
+    transform: skewy(-165deg);
+    position: absolute;
+    top: 0pt;
+
+}
+.id-card-wrapper-back .rect14{
+    left: 67pt;
+    margin-top: 197.31pt;
+    width: 16.775pt;
+    height: 3.5pt;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0pt;
+    z-index: 1;
+}
+.id-card-wrapper-back .rect15 {
+    left: 76pt;
+    margin-top: 190.31pt;
+    width: 105.775pt;
+    height: 9.5pt;
+    background-color: #000000;
+    transform: skewy(-193deg);
+    position: absolute;
+    top: 0pt;
+
+
+
+}
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; /* 72px */
+    padding: 6pt; /* 8px */
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 62.5pt;
+    top: 83.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm; /* 20mm */
+    height: 12mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -14.25mm; /* -19mm */
+    left: 42pt; /* 56px */
+}
+
+.id-emergency-contact{
+	margin-left: 2mm;
+    font-size: 7pt;
+    margin-bottom: 5mm;
+    margin-top: 1mm;
+    position: absolute;
+    
+}
+.phone{
+	margin-left: 2mm;
+    font-size: 7pt;
+    margin-bottom: 5mm;
+    margin-top: 0mm;
+    position: absolute;
+}
+.id-blood-group{
+	font-size: 7pt;
+    margin-bottom: 5mm;
+    margin-top: 14mm;
+    margin-left: 2mm;
+    top: 1mm;
+    position: absolute;
+}
+
+
+.id-dob{
+	font-size: 7pt;
+    margin-bottom: 5mm;
+    margin-top: 16mm;
+    margin-left: 2mm;
+    top: 5mm;
+    position: absolute;
+}
+.id-issue-date{
+	margin-left: 2mm;
+    font-size: 7pt;
+    margin-bottom: 5mm;
+    margin-top: 21mm;
+    top: 6mm;
+    position: absolute;
+	
+}
+.id-expiry-date{
+	margin-left: 2mm;
+    font-size: 7pt;
+    margin-bottom: 13mm;
+    margin-top: 28mm;
+    top: 5mm;
+    position: absolute;
+	
+}
+.id-barcode{
+	font-size: 0.8333em;
+    margin-bottom: 5mm;
+}
+.id-policy {
+   margin-top: 35mm;
+    font-size: 6pt;
+    margin-bottom: 6mm;
+    margin-left: 20mm;
+    font-weight: bold;
+	
+}
