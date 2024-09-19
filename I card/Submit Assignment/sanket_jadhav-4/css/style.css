@@ -1,0 +1,388 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 59.002mm; /* 223px */
+    height: 83.872mm; /* 317px */
+    margin: 6.085mm; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+    left: 0mm;
+    margin-top: -0.948mm;
+    width: 58.834mm;
+    height: 44.979mm;
+    background-color: #3e1f2e;
+    position: absolute;
+    top: 1.058mm;
+}
+
+.id-card-wrapper-front .id-pink {
+    position: absolute;
+    left: -6.527mm;
+    margin-top: -0.243mm;
+    width: 0.79375mm;
+    height: 0mm;
+    border-left: -0.95pt solid transparent;
+    border-right: 67.05pt solid transparent;
+    border-bottom: 15.5pt solid rgb(210, 32, 46);
+    top: 28.458mm;
+    transform: rotate(-17deg);
+}
+.id-card-wrapper-front .id-orange {
+    position: absolute;
+    left: -6.35mm;
+    margin-top: -4.47675mm;
+    width: 0.264mm;
+    height: 0mm;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 20.5pt solid rgb(239, 101, 48);
+    top: 35.101mm;
+    transform: rotate(-28deg);
+}
+.id-card-wrapper-front .id-orange-right {
+    position: absolute;
+    left:30.691mm;
+    margin-top: -4.47675mm;
+    width: 0.264mm;
+    height: 0mm;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 13.5pt solid rgb(239, 101, 48);
+    top: 33.725mm;
+    transform: rotate(181deg);
+}
+.id-card-wrapper-front .id-red {
+    position: absolute;
+    left:29.63mm;
+    margin-top: -4.47675mm;
+    width: 0.264mm;
+    height: 0mm;
+    border-left: -23.95pt solid transparent;
+    border-right: 95.05pt solid transparent;
+    border-bottom: 16.5pt solid rgb(210, 32, 46);
+    top: 35.489mm;
+    transform: rotate(188deg);
+}
+
+.id-card-wrapper-front .id-light-pink {
+        position: absolute;
+        left: -13.405mm;
+        margin-top: -5.997mm;
+        width: -0.52916mm;
+        height: 11.377mm;
+        border-left: 124pt solid transparent;
+        border-right: 121pt solid transparent;
+        border-bottom: 64pt solid #fbeaea;
+        top: 23.283mm;
+        z-index: 10;
+}
+.id-card-wrapper-front .rect-right{
+    position: absolute;
+    width: 2.910mm;
+    height: 15.345mm;
+    background-color: rgb(211, 32, 45);
+    top: 58.913mm;
+
+}
+.id-card-wrapper-front .rect-left{
+    position: absolute;
+    width: 2.910mm;
+    height:15.345mm;
+    background-color: rgb(211, 32, 45);
+    top: 58.913mm;
+    left: 56.091mm;
+
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 5.027mm; /* 19px */
+}
+
+.org-logo img {
+    max-width: 40%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 6.879mm; /* 10px */
+    top: 13.934mm; /* 10px */
+    height: 26.458mm; /* 100px */
+    width: 26.458mm; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.user-photo img {
+    width: 18.75mm;
+    height: 17.75mm;
+    border-radius: 35pt;
+    position: absolute;
+    top: 3.25mm;
+    left: 13.816mm;
+}
+
+.user-name {
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 36mm;
+    left: 11mm;
+}
+
+.id-number {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 43mm;
+    left: 21mm;
+}
+
+.id-title {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 48mm;
+    left: 13mm;
+}
+
+.org-name {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 54mm;
+    left: 10mm;
+}
+
+.org-address {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 60mm;
+    left: 18mm;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 59.002mm; /* 223px */
+    height: 83.872mm; /* 317px */
+    margin: 6.085mm; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 67.204mm; /* 254px */
+    top: -90.222mm; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: 0mm;
+    width: 60.834mm;
+    height:44.979mm;
+    background-color: #3e1f2e;
+    position: absolute;
+    top: 58.561mm;
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    position: absolute;
+    left: -13.052mm;
+    margin-top: -5.9972mm;
+    width: -0.5291mm;
+    height:11.377mm;
+    border-left: 124pt solid transparent;
+    border-right: 121pt solid transparent;
+    border-bottom: 64pt solid #fbeaea;
+    top: 58.913mm;
+    z-index: 10;
+    transform: rotate(180deg);
+}
+
+.id-card-wrapper-back .id-light-pink-bottom {
+    position: absolute;
+    left: 41.747mm;
+    margin-top: -0.243mm;
+    width:0.79375mm;
+    height: 0mm;
+    border-right: 67.05pt solid transparent;
+    border-bottom: 15.5pt solid rgb(210, 32, 46);
+    top: 201pt;
+    transform: rotate(163deg);
+}
+.id-card-wrapper-back .id-orange-bottom {
+    position: absolute;
+    left: -6.408mm;
+    margin-top: -4.476mm;
+    width: 0.264mm;
+    height: 0mm;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 13.5pt solid rgb(239, 101, 48);
+    top: 74.058mm;
+    transform: rotate(364deg);
+}
+.id-card-wrapper-back .id-red-bottom {
+    position: absolute;
+    left: -3.473mm;
+    margin-top: -4.47675mm;
+    width: 0.264mm;
+    height: 0mm;
+    border-left: -23.95pt solid transparent;
+    border-right: 95.05pt solid transparent;
+    border-bottom: 16.5pt solid rgb(210, 32, 46);
+    top: 70.883mm;
+    transform: rotate(371deg);
+}
+.id-card-wrapper-back .id-orange {
+    position: absolute;
+    left: 28.927mm;
+    margin-top: -4.47675mm;
+    width: 0.264mm;
+    height: 0mm;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 20.5pt solid rgb(239, 101, 48);
+    top: 70.731mm;
+    transform: rotate(152deg);
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 14.2875mm; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 20.108mm; /* 72px */
+    padding:2.116mm; /* 8px */
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 6.173mm;
+    top: -3.351mm;
+    height: 26.458mm;
+    width: 26.458mm;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.qr-code img {
+    width: 15mm; /* 20mm */
+    height: 12mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -14.25mm; /* -19mm */
+    left: 14.816mm; /* 56px */
+}
+
+.id-emergency-contact {
+    margin-top: -6mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index: 1;
+    position: absolute;
+    line-height: 6.085mm;
+}
+.id-blood-group {
+    margin-top: 7.3mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-dob{
+    margin-top: 14mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-issue-date{
+    margin-top: 20mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+
+.id-expiry-date{
+    margin-top: 26mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:18;
+    position:absolute;
+}
+
+.id-policy {
+    margin-top: 32mm;
+    margin-left: 8mm;
+    font-size: 2.8mm;
+    color: rgb(0, 0, 0);
+    width: 45mm;
+    z-index:15;
+    position:absolute;
+}
