@@ -1,0 +1,265 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.55pt; 
+    height: 23000000000000000007.75pt; 
+    margin: 17.25pt; 
+    background-color: orange;
+    border: 0.75pt solid #ffffff; 
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color:rgb(243, 177, 10);
+    height: 100%;
+}
+
+
+.id-whitespace{
+    position: absolute;
+    top: 15mm;
+    width: 191mm;
+    height: 108mm;
+    left: -113mm;
+    background-color: #fcfcfc;
+    border: 1.2mm solid blue;
+    border-radius: 87%;
+}
+
+.id-bluecircle{
+    position: absolute;
+    top: 77mm;
+    height: 24mm;
+    width: 63mm;
+    background-color: blue;
+    left: -2mm;
+    z-index: 1;
+    border-radius: 50%;
+}
+.id-yelocircle{
+    position: absolute;
+    top: 78mm;
+    height: 24mm;
+    width: 63mm;
+    background-color: #ffae00;
+    left: -2mm;
+    z-index: 1;
+    border-radius: 50%;
+}
+.org-logo {
+    text-align: center;
+    margin-top: -9mm; 
+}
+
+.org-logo img {
+    max-width: 30%; 
+    height: auto;
+}
+
+.polygon{
+    position: relative;
+    top: 0mm;
+    left: 17mm;
+    width: 24mm;
+    background-color: blue;
+    overflow: hidden;
+    aspect-ratio: 1;
+    clip-path: polygon(83% 48%, 68% 78.3%, 34% 79.3%, 17% 49%, 33% 21.7%, 69% 22.7%, 83% 49%, calc(74% - 8px) calc(5.7% - -18.32px), calc(25% - -10px) calc(6.7% - -17.32px), calc(1% - -19px) calc(49% - 0px), calc(25% - -10px) calc(94.3% - 17.32px), calc(76% - 10px) calc(93.3% - 17.32px), calc(101% - 21px) calc(50% - 1px), calc(76% - 9px) calc(8.7% - -16.32px));
+      
+} */
+
+.user-photo {
+    width: 15.75mm;
+    height: 14.75mm;
+    border-radius: 58pt;
+    position: absolute;
+    top: 8.25mm;
+    left: 53pt;
+}
+
+.user-photo img {
+    width: 21mm;
+    height: 18mm;
+    border-radius: 8%;
+    position: absolute;
+    top: 17mm;
+    left: 18mm;
+    opacity: 14;
+}
+
+.user-name {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 35mm;
+    left: 6mm;
+}
+
+.id-number {
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 42mm;
+    left: 21mm;
+}
+
+.id-title {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 46mm;
+    left: 8mm;
+}
+
+.org-name {
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 52mm;
+    left: 2mm;
+}
+
+.org-address {
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -3mm;
+    position: absolute;
+    top: 62mm;
+    left: 21mm;
+}
+
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.55pt;
+    height: 237.55pt;
+    margin: 17.55pt;
+    background-color: orange;
+    border: 0.75pt solid #ffffff;
+    overflow: hidden;
+    left: 190.5pt;
+    top: -255.75pt;
+}
+.blueline{
+    position: absolute;
+    top: -2mm;
+    width: 62mm;
+    height: 85mm;
+    left: -3mm;
+    background-color: #fcfcfc;
+    border: 1.2mm solid blue;
+    border-top-right-radius: 33%;
+    border-bottom-left-radius: 53%;
+}
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; 
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; 
+    /*padding: 6pt;  */
+}
+
+.id-contact-info {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 7.5pt; 
+    top: 7.5pt; 
+    height: 75pt; 
+    width: 75pt; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 25mm;
+    height: 19mm;
+    position: absolute;
+    top: 39mm;
+    left: 15mm;
+}
+
+.id-emergency-contact{
+    font-size: 12pt;
+    margin-bottom: 4mm;
+    margin-top: -14mm;
+    margin-left: 2mm;
+}
+.id-blood-group{
+    font-size: 14pt;
+    margin-bottom: 4mm;
+    margin-top: 1mm;
+    margin-left: 2mm;
+}
+.id-dob{
+    font-size: 9pt;
+    margin-bottom: 4mm;
+    margin-top: 1mm;
+    margin-left: 2mm;
+}
+.id-dates{
+    font-size: 8pt;
+    margin-bottom: 4mm;
+    margin-top: 4mm;
+    margin-left: 2mm;
+}
+.id-issue-date{
+    font-size: 8pt;
+    margin-bottom: 4mm;
+    margin-top: 1mm;
+    margin-left: 2mm;
+}
+.id-expiry-date{
+    font-size: 8pt;
+    margin-bottom: 4mm;
+    margin-top: 1mm;
+    margin-left: 2mm;
+}
+.id-barcode{
+    font-size: 8pt;
+    margin-bottom: 4mm;
+    margin-top: 1mm;
+    margin-left: 1mm;
+}
+.id-policy {
+    font-size: 8pt;
+    margin-bottom: 4mm;
+    margin-top: 1mm;
+    margin-left: 1mm;
+}
