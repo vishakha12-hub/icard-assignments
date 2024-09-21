@@ -17,11 +17,11 @@ body {
 /* Visiting Card Styles */
 .id-card-wrapper-front {
     position: relative;
-    width: 167.25pt; /* 223px */
-    height: 237.75pt; /* 317px */
-    margin: 17.25pt; /* 23px */
+    width: 58.25mm;
+    height: 82.75mm;
+    margin: 6.25mm;
     background-color: #e1deec;
-    border: 0.75pt solid rgb(172, 25, 25); /* 1px */
+    border: 0.75pt solid rgb(172, 25, 25);
     overflow: hidden;
 }
 .id-dark-red{
@@ -37,15 +37,15 @@ body {
 .id-card-wrapper-front .id-card-background {
     background-color:white;
     height: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     
 }
 
 .id-card-wrapper-front .id-pink {
-    left: 102pt; /* 136px */
-    margin-top: -0.69pt; /* -0.92px */
-    width: 68.1pt; /* 90.8px */
-    height: 22.5pt; /* 30px */
+    left: 35.9833mm; /* 136px */
+    margin-top: -0.2434167mm; /* -0.92px */
+    width: 24.02417mm; /* 90.8px */
+    height: 7.9375; /* 30px */
     background-color: white;
     position: absolute;
     top: 50mm; /* 0px */
@@ -53,7 +53,7 @@ body {
 
 .org-logo {
     text-align: center;
-    margin-bottom: 14.25pt; /* 19px */
+    margin-bottom: 5.0270833mm; /* 19px */
 }
 
 .org-logo img {
@@ -63,10 +63,10 @@ body {
 
 .user-photo {
     position: absolute;
-    left: 7.5pt; /* 10px */
-    top: 7.5pt; /* 10px */
-    height: 80pt; /* 100px */
-    width: 80pt; /* 100px */
+    left: 2.64583mm; /* 10px */
+    top: 2.64583; /* 10px */
+    height: 28.2222mm; /* 100px */
+    width: 28.2222mm; /* 100px */
     border-radius: 50%;
     object-fit: cover;
 }
@@ -76,12 +76,12 @@ body {
     height: 25mm; /* 21mm */
     border-radius: 50pt;
     position: absolute;
-    top: 5mm; /* 7mm */
-    left: 44pt; /* 56px */
+    top: -3mm; /* 7mm */
+    left: 15.5222mm; /* 56px */
 }
 
 .user-name {
-    font-size: 1.1667em;
+    font-size: 13pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30mm;
@@ -91,27 +91,27 @@ body {
 }
 
 .id-number {
-    font-size: 0.8333em;
+    font-size: 12pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
     top: 42mm;
-    left: 21mm;
+    left: 19mm;
 }
 
 .id-title {
-    font-size: 0.8333em;
+    font-size: 13pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
     top: 48mm;
-    left: 12mm;
+    left: 7mm;
 }
 
 .org-name {
-    font-size: -1.1667em;
+    font-size: 12pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
@@ -121,25 +121,25 @@ body {
 }
 
 .org-address {
-    font-size: 0.8333em;
+    font-size: 11pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
     top: 60mm;
-    left: 19mm;
+    left: 17mm;
 }
 
 .id-card-wrapper-back {
     position: relative;
-    width: 167.25pt; /* 223px */
-    height: 237.75pt; /* 317px */
-    margin: 17.25pt; /* 23px */
+    width: 59.0020833mm; /* 223px */
+    height: 83.8729167mm; /* 317px */
+    margin: 6.0854167mm; /* 23px */
     background-color: rgb(196, 13, 41);
-    border: 0.75pt solid #ffffff; /* 1px */
+    border: 0.2645833mm solid #ffffff; /* 1px */
     overflow: hidden;
-    left: 190.5pt; /* 254px */
-    top: -255.75pt; /* -341px */
+    left: 67.204167mm; /* 254px */
+    top: -90.2229167mm; /* -341px */
 }
 
 .id-card-wrapper-back .id-card-background {
@@ -150,29 +150,29 @@ body {
 
 .id-card-wrapper-back .id-dark-pink-bottom {
     left: 0pt; /* 0px */
-    margin-top: 216pt; /* 288px */
-    width: 53.775pt; /* 71.7px */
-    height: 22.5pt; /* 30px */
+    margin-top: 76.2mm; /* 288px */
+    width: 18.970625mm; /* 71.7px */
+    height: 7.9375mm; /* 30px */
     background-color:rgb(196, 13, 41);
     position: absolute;
-    top: 0pt; /* 0px */
+    /* top: 0pt; 0px */
 }
 
 .id-card-wrapper-back .id-pink-bottom {
-    left: 90.75pt; /* 121px */
-    margin-top: 216pt; /* 288px */
-    width: 82.2pt; /* 109.6px */
-    height: 22.5pt; /* 30px */
+    left: 32.014583mm; /* 121px */
+    margin-top: 76.2mm; /* 288px */
+    width: 28.99833mm; /* 109.6px */
+    height: 7.9375mm; /* 30px */
     background-color: rgb(196, 13, 41);
     position: absolute;
     top: 0pt; /* 0px */
 }
 
 .id-card-wrapper-back .id-light-pink-bottom {
-    left: 48pt; /* 64px */
-    margin-top: 216pt; /* 288px */
-    width: 53.775pt; /* 71.7px */
-    height: 22.5pt; /* 30px */
+    left: 16.9333mm; /* 64px */
+    margin-top: 76.2mm; /* 288px */
+    width: 18.970625mm; /* 71.7px */
+    height: 7.9375mm; /* 30px */
     background-color: rgb(196, 13, 41);
     position: absolute;
     top: 0pt; /* 0px */
@@ -181,13 +181,13 @@ body {
 /* Content Styles */
 .id-card-content {
     position: absolute;
-    top: 40.5pt; /* 54px */
+    top: 14.2875mm; /* 54px */
 }
 
 .id-card-wrapper-back .id-card-content {
     position: absolute;
-    top: 54pt; /* 72px */
-    padding: 6pt; /* 8px */
+    top: 19.05mm; /* 72px */
+    padding: 2.11667mm; /* 8px */
 }
 
 .id-contact-info {
@@ -202,10 +202,10 @@ body {
 
 .qr-code {
     position: absolute;
-    left: 7.5pt; /* 10px */
-    top: 7.5pt; /* 10px */
-    height: 20pt; /* 100px */
-    width: 75pt; /* 100px */
+    left: 2.64583mm; /* 10px */
+    top: 2.64583mm; /* 10px */
+    height: 7.05556mm; /* 100px */
+    width: 26.4583mm; /* 100px */
     border-radius: 50%;
     object-fit: cover;
 }

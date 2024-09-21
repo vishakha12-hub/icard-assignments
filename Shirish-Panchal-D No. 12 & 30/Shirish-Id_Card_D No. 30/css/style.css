@@ -51,13 +51,13 @@
 }
   
  .id-card-content .id-number {
-    font-size: 0.8333em;
+    font-size: 13pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 73mm;
-    left: 29mm;
+    top: 72mm;
+    left: 26mm;
     color: white;
 }
 .id-card-content .id-title {
@@ -161,10 +161,10 @@
 
 .Right-Arrow3{
     border: 1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
-    top: 18mm;
+    padding: 0.8mm;
+    top: 19mm;
     left: 68mm;
     position: absolute;
     z-index: 3;
@@ -173,22 +173,22 @@
 
 .Right-Arrow4{
     border: 1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
+    padding: 0.8mm;
     top: 18mm;
     left: 65mm;
     position: absolute;
     z-index: 3;
-    rotate: -30deg;            
+    rotate: -30deg;
 }           
 
 .Right-Arrow5{
     border: 1mm solid rgb(43, 161, 185);
     border-width: 0 0.79375mm 0.79375mm 0;
     /* display: inline-block; */
-    padding: 3px;
-    top: 18mm;
+    padding: 0.8mm;
+    top: 17.5mm;
     left: 62mm;
     position: absolute;
     z-index: 3;
@@ -293,22 +293,23 @@
  } 
 
 .arrow{
-    border:1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border: 1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
-    top:10mm;
-    left:5mm;
+    padding: 0.8mm;
+    top: 10mm;
+    left: 5mm;
     position: absolute;
     z-index: 3;
-    rotate:-31deg;        
+    rotate: -31deg;
+       
 }
 
 .arrow-right1{
     border:1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
+    padding: 0.8;
     top:10mm;
     left:8mm;
     position: absolute;
@@ -318,9 +319,9 @@
    
 .arrow-right2{
     border:1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
+    padding: 0.8mm;
     top:10mm;
     left:11mm;
     position: absolute;
@@ -329,9 +330,9 @@
 }
 .arrow-right3{
     border:1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
+    padding: 0.8mm;
     top:90mm;
     left:60mm;
     position: absolute;
@@ -341,9 +342,9 @@
   }
   .arrow-right4{
     border:1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
+    padding: 0.8mm;
     top:90mm;
     left:57mm;
     position: absolute;
@@ -353,9 +354,9 @@
 
 .arrow-right5{
     border:1mm solid rgb(43, 161, 185);
-    border-width: 0 3px 3px 0;
+    border-width: 0 1mm 1mm 0;
     /* display: inline-block; */
-    padding: 3px;
+    padding: 0.8mm;
     top:90mm;
     left:54mm;
     position: absolute;
@@ -367,8 +368,8 @@
     position: absolute;
     left: 58mm;
     top: 3mm;
-    width: 10px;
-    height: 10px;
+    width: 3mm;
+    height: 3mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -378,8 +379,8 @@
     position: absolute;
     left: 52mm;
     top: 3mm;
-    width: 10px;
-    height: 10px;
+    width: 3mm;
+    height: 3mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -389,8 +390,8 @@
     position: absolute;
     left: 64mm;
     top: 3mm;
-    width: 10px;
-    height: 10px;
+    width: 3mm;
+    height: 3mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -399,9 +400,9 @@
 .id-card-wrapper-back .id-card-content .Dot3{
     position: absolute;
     left: 7mm;
-    top: 88mm;
-    width: 10px;
-    height: 10px;
+    top: 77mm;
+    width: 3mm;
+    height: 3mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -410,9 +411,9 @@
 .id-card-wrapper-back .id-card-content .Dot4{
     position: absolute;
     left: 12mm;
-    top: 88mm;
-    width: 10px;
-    height: 10px;
+    top: 77mm;
+    width: 3mm;
+    height: 3mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -421,9 +422,9 @@
 .id-card-wrapper-back .id-card-content .Dot5{
     position: absolute;
     left:17mm;
-    top: 88mm;
-    width: 10px;
-    height: 10px;
+    top: 77mm;
+    width: 3mm;
+    height: 3mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -433,8 +434,8 @@
     position: absolute;
     left:29mm;
     top: -6mm;
-    width: 50px;
-    height: 50px;
+    width: 15mm;
+    height: 15mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -444,8 +445,8 @@
     position: absolute;
     left:-6mm;
     top: 36mm;
-    width: 50px;
-    height: 50px;
+    width: 15mm;
+    height: 15mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
@@ -455,8 +456,8 @@
     position: absolute;
     left:67mm;
     top: 82mm;
-    width: 50px;
-    height: 50px;
+    width: 15mm;
+    height: 15mm;
     border-radius: 50%;
     border: 0.5mm solid rgb(0, 200, 255);
     z-index: 3;
