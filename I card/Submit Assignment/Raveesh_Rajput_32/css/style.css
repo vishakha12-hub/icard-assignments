@@ -1,0 +1,251 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 54.00mm;
+    height: 85.60mm;
+    margin: 17mm;
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #a20002;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-shape1{
+    width: 44mm;
+    height: 85.60mm;
+    background-color: #c7b086;
+    position: absolute;
+    top: 10mm;
+    left: 5mm;
+}
+
+.id-card-wrapper-front .id-shape2 {
+    width: 30mm;
+    height: 35mm;
+    border: 1pt solid #936041;
+    border-radius: 12pt;
+    position: absolute;
+    z-index: 0;
+    top: 20mm;
+    left: 12mm;
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 5mm; 
+}
+
+.org-logo img {
+    max-width: 45.25%;
+    height: auto;
+    position: relative;
+    top: -2mm;
+    left: 0.5mm;
+    background-clip: content-box;
+    border: none;
+}
+
+.user-photo {
+    position: absolute;
+    left: 2.6mm; 
+    top: 2.6mm; 
+    height: 26.5mm; 
+    width: 26.5mm; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    width: 25mm;
+    height: 32mm;
+    border-radius: 9pt;
+    background-color: #c7b086;
+    position: absolute;
+    top: 5mm;
+    left: 12.2mm;
+}
+
+.user-name {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 44mm;
+    left: 11.4mm;
+    color: white;
+}
+
+.id-number {
+    font-size: 6.5pt;
+    text-align: center;
+    margin-bottom: 23mm;
+    position: absolute;
+    top: 49.5mm;
+    left: 16mm;
+    width: 22mm;
+    color: #863d2a;
+}
+
+.id-title {
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 18mm; */
+    position: absolute;
+    top: 53mm;
+    left: 12mm;
+    color: #863d2a;
+}
+
+.org-name {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 57mm;
+    left: 10mm;
+    color: #863d2a;
+}
+
+.org-address {
+    font-size: 8pt;
+    text-align: center;
+    position: absolute;
+    top: 62mm;
+    left: 18mm;
+    color: #863d2a;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 54.00mm;
+    height: 85.60mm;
+    margin: 17mm;
+    overflow: hidden;
+    left: 60mm;
+    top: -103mm;
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #a60201;
+    height: 100%;
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 14.2875mm; 
+}
+
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+  position: absolute;
+    left: 4.7625mm;
+    top: 56mm;
+    height: 26.5mm;
+    width: 26.5mm;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm;
+    height: 12mm;
+    border-radius: 5pt;
+    position: absolute;
+    top: -40.25mm;
+    left: 14mm;
+}
+
+.id-emergency-contact {
+    font-size: 9pt;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 32mm;
+    left: 8mm;
+    color: #fdf4e6;
+}
+.id-blood-group {
+    font-size: 8pt;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 41mm;
+    left: 16mm;
+    color: #e7a09e;
+}
+.id-dob {
+    font-size: 8pt;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 46mm;
+    left: 10mm;
+    color: #e7a09e;
+}
+.id-issue-date
+ {
+    font-size: 8pt;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 51mm;
+    left: 12mm;
+    color: #e7a09e;
+}
+.id-expiry-date {
+    font-size: 8pt;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 56mm;
+    left: 11mm;
+    color: #e7a09e;
+}
+.id-policy {
+    font-size: 6pt;
+    margin-bottom: 2mm;
+    position: relative;
+    top: -25mm;
+    left: 7mm;
+    color: #e7a09e;
+}
+.id-card-wrapper-back .org-logo {
+    text-align: center;
+    margin-bottom: 5mm; 
+}
+
+.id-card-wrapper-back .image {
+    max-width: 45.25%;
+    height: auto;
+    position: relative;
+    top: 50mm;
+    left: 15mm;
+    background-clip: content-box;
+    border: none;
+}
