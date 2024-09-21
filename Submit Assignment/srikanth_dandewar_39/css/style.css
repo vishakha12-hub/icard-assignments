@@ -1,0 +1,180 @@
+.id-card-wrapper-front{
+    position: absolute;
+    width: 54.00mm;
+    height: 85.60mm;
+    margin: 6.08mm;
+    background-color: #fd7b01;
+    border: 1pt solid #060000;
+    overflow: hidden;
+}
+.id-card-background{
+    position: absolute;
+    background-color: white;
+    height: 71.61mm;
+    width: 98.07mm;
+    top: 1mm;
+    transform: skew(-23deg, -7deg) rotate(-94deg);
+    left: -16.24mm;
+    border-radius: 95pt;
+}
+.org-logo img{
+    position: absolute;
+    height: 10.93mm;
+    width: 30.33mm;
+    top: 5.58mm;
+    left: 15.1mm;
+}
+.user-photo img{
+    position: absolute;
+    height: 19.05mm;
+    width: 19.05mm;
+    top: 19.1mm;
+    left: 18mm;
+}
+.user-name{
+    position: absolute;
+    font-weight: bold;
+    font-size: 9pt;
+    top: 40.56mm;
+    left: 9.28mm;
+    height: 3.52mm;
+    width: 44.09mm;
+}
+.job-position{
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 1pt;
+    font-weight: bold;
+    font-size: 12pt;
+    top: 45.56mm;
+    left: 13.16mm;
+    height: 4.58mm;
+    width: 26.45mm;
+    border: 1pt solid orange;
+    border-radius: 3pt;
+    background-color: #fd7b01;
+}
+.id-number{
+    position: absolute;
+    font-size: 10pt;
+    top: 53.97mm;
+    left: 20.22mm;
+    height: 3.52mm;
+    width: 18.69mm;
+}
+.id-title{
+    position: absolute;
+    font-size: 10pt;
+    top: 58.91mm;
+    left: 15.93mm;
+    height: 3.52mm;
+    width: 21.87mm;
+}
+.org-name{
+    position: absolute;
+    font-weight: bold;
+    font-size: 10pt;
+    top: 64.91mm;
+    left: 10.4mm;
+    height: 3.52mm;
+    width: 29.98mm;
+}
+.org-address{
+    position: absolute;
+    font-size: 10pt;
+    top: 70.55mm;
+    left: 14.58mm;
+    height: 3.52mm;
+    width: 29.98mm;
+}
+
+
+/* Card Background Back Side  */
+
+.id-card-wrapper-back{
+    position: absolute;
+    width: 54.00mm;
+    height: 85.60mm;
+    margin: 17.25pt;
+    left: 208pt;
+    background-color: #fd7b01;
+    border: 1pt solid #060000;
+    overflow: hidden
+}
+
+.id-card-background1{
+    position: absolute;
+    background-color: white;
+    height: 83.19mm;
+    width: 50.44mm;
+    top: 1.41mm;
+    left: 1.76mm;
+    border-radius: 12pt;
+}
+.qr-code img{
+    position: absolute;
+    height: 21.16mm;
+    width: 21.16mm;
+    top: 5.99mm;
+    left: 16.58mm;
+}
+.id-emergency-contact{
+    position: absolute;
+    height: 21.16mm;
+    width: 60.32mm;
+    top: 29.28mm;
+    left: 5.99mm;
+    font-size: 9pt;
+}
+.phone-no{
+    position: absolute;
+    height: 21.16mm;
+    width: 60.32mm;
+    top: 34.21mm;
+    left: 6.3mm;
+    font-size: 9pt;
+}
+.id-blood-group{
+    position: absolute;
+    height: 21.16mm;
+    width: 60.32mm;
+    top: 39.15mm;
+    left: 6.17mm;
+    font-size: 9pt;
+}
+.id-dob{
+    position: absolute;
+    height: 21.16mm;
+    width: 60.32mm;
+    top: 44.45mm;
+    left: 6.17mm;
+    font-size: 9pt;
+}
+.id-issue-date{
+    position: absolute;
+    height: 21.16mm;
+    width: 60.32mm;
+    top: 50.09mm;
+    left: 6.81mm;
+    font-size: 9pt;
+}
+.id-expiry-date{
+    position: absolute;
+    height: 21.16mm;
+    width: 60.32mm;
+    top: 55.38mm;
+    left: 6.46mm;
+    font-size: 9pt;
+}
+.id-policy{
+    position: absolute;
+    border: 1pt solid black;
+    border-radius: 5pt;
+    height: 9.17mm;
+    padding: 6pt;
+    width: 43.39mm;
+    top: 65.73mm;
+    left: 2.82mm;
+    font-size: 9pt;
+}
