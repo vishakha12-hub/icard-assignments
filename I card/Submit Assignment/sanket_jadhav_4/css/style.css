@@ -300,7 +300,7 @@ body {
 }
 
 .id-contact-info {
-    font-size: 0.8333em;
+    font-size: 9.9622pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
@@ -332,7 +332,7 @@ body {
 .id-emergency-contact {
     margin-top: -6mm;
     margin-left: 8mm;
-    font-size: 3.5mm;
+    font-size: 9.921pt;
     color: rgb(0, 0, 0);
     width: 50mm;
     z-index: 1;
@@ -342,7 +342,7 @@ body {
 .id-blood-group {
     margin-top: 7.3mm;
     margin-left: 8mm;
-    font-size: 3.5mm;
+    font-size: 9.921pt;
     color: rgb(0, 0, 0);
     width: 50mm;
     z-index:1;
@@ -351,7 +351,7 @@ body {
 .id-dob{
     margin-top: 14mm;
     margin-left: 8mm;
-    font-size: 3.5mm;
+    font-size: 9.921pt;
     color: rgb(0, 0, 0);
     width: 50mm;
     z-index:1;
@@ -360,7 +360,7 @@ body {
 .id-issue-date{
     margin-top: 20mm;
     margin-left: 8mm;
-    font-size: 3.5mm;
+    font-size: 9.921pt;
     color: rgb(0, 0, 0);
     width: 50mm;
     z-index:1;
@@ -370,7 +370,7 @@ body {
 .id-expiry-date{
     margin-top: 26mm;
     margin-left: 8mm;
-    font-size: 3.5mm;
+    font-size: 9.921pt;
     color: rgb(0, 0, 0);
     width: 50mm;
     z-index:18;
@@ -380,7 +380,7 @@ body {
 .id-policy {
     margin-top: 32mm;
     margin-left: 8mm;
-    font-size: 2.8mm;
+    font-size: 7.937pt;
     color: rgb(0, 0, 0);
     width: 45mm;
     z-index:15;

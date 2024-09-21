@@ -53,12 +53,12 @@ body {
 
 .id-card-wrapper-front .id-light-pink {
     left: 10.583mm; /* 68px */
-    margin-top: -0.69pt; /* -0.92px */
+    margin-top: -0.243mm; /* -0.92px */
     width: 38mm; /* 71.7px */
     height: 30mm; /* 30px */
     background-color: rgb(132, 44, 128);
     position: absolute;
-    top: 0pt; /* 0px */
+    top: 0mm; /* 0px */
     border-bottom-left-radius: 28.346pt;
     border-bottom-right-radius:28.346pt;
 }
@@ -70,20 +70,20 @@ body {
     height: 1mm;
     background-color: rgb(7, 0, 4);
     position: absolute;
-    bottom: 0pt;
+    bottom: 0mm;
     transform: skew(-50deg, 0deg);
    
 }
 
 .recttop1{
     left: 4.586mm;
-    margin-top: -0.69pt;
+    margin-top: -0.243mm;
     width: 50mm;
     height: 50mm;
     background-color: rgb(132, 44, 128);
     position: absolute;
     bottom: -42.686mm;
-    border-top-left-radius: 5mm;
+    border-top-left-radius: 14.173pt;
     transform: rotate(45deg);
     
    
@@ -91,7 +91,7 @@ body {
 
 .recttop2{
     left: 47.625mm;
-    margin-top: -0.69pt;
+    margin-top: -0.243mm;
     width: 12mm;
     height: 1mm;
     background-color: rgb(7, 0, 4);
@@ -112,8 +112,8 @@ body {
     transform: skew(-50deg, 0deg);
 }
 .recttop4{
-    left: 13pt;
-    margin-top: -0.69pt;
+    left: 4.586mm;
+    margin-top: -0.243mm;
     width: 50mm;
     height: 50mm;
     background-color: rgb(132, 44, 128);
@@ -167,7 +167,7 @@ body {
 }
 
 .user-name {
-    font-size: 4mm;
+    font-size: 11.338pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30mm;
@@ -178,7 +178,7 @@ body {
 }
 
 .id-number {
-    font-size: 3mm;
+    font-size:8.503pt;
     text-align: center;
     margin-bottom: 18mm;
     position: relative;
@@ -187,7 +187,7 @@ body {
 }
 
 .phone-number{
-    font-size: 3mm;
+    font-size: 8.503pt;
     text-align: center;
     margin-bottom: 18mm;
     position: relative;
@@ -196,7 +196,7 @@ body {
 }
 
 .mail{
-    font-size: 3mm;
+    font-size: 8.503pt;
     text-align: center;
     margin-bottom: 18mm;
     position: relative;
@@ -214,7 +214,7 @@ body {
 }
 
 .org-name {
-    font-size: 3mm;
+    font-size:8.503pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
@@ -225,7 +225,7 @@ body {
 }
 
 .org-address {
-    font-size: 3mm;
+    font-size:8.503pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
@@ -254,7 +254,7 @@ body {
 
 .id-card-wrapper-back .id-dark-pink-bottom {
     left: 0mm; /* 0px */
-    margin-top: 216pt; /* 288px */
+    margin-top: 76.2mm; /* 288px */
     width: 10mm; /* 71.7px */
     height: 1mm; /* 30px */
     background-color: rgb(16, 15, 15);
@@ -273,7 +273,7 @@ body {
 }
 
 .id-card-wrapper-back .id-light-pink-bottom {
-    left: 30pt; /* 64px */
+    left: 10.583mm; /* 64px */
     margin-top: 76.2mm; /* 288px */
     width: 38mm; /* 71.7px */
     height: 1mm; /* 30px */
@@ -342,25 +342,25 @@ body {
 }
 .id-issue-date{
     left: 2mm;
-    font-size: 3mm;
+    font-size: 8.503pt;
     position: absolute;
     top: 24mm;
 }
 .id-expiry-date{
     left: 2mm;
-    font-size: 3mm;
+    font-size: 8.503pt;
     position: absolute;
     top: 30mm;
 }
 .id-barcode{
     left: 2mm;
-    font-size: 3mm;
+    font-size: 8.503pt;
     position: absolute;
     top: 29mm;
 }
 .id-policy {
     left: 2mm;
-    font-size: 2.7mm;
+    font-size: 7.653pt;
     position: absolute;
     top: 39mm;
 }
