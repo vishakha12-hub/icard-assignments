@@ -1,0 +1,174 @@
+.id-card-wrapper-front{
+    position: relative;
+    width: 59.00mm;
+    height: 98.77mm;
+    margin: 6.08mm;
+    border: 7pt solid black; 
+    overflow: hidden;
+}
+
+.id-lightblue1-front{
+    position: absolute;
+    width:51mm;
+    height:30mm;
+    left: 4.2mm;
+    background-color:lightskyblue;
+    border-radius: 0pt 0pt 0.7pt 0.7pt ;
+    border-bottom-left-radius: 19pt;
+    border-bottom-right-radius: 19pt;
+}
+.id-lightblue2-front{
+    position: absolute;
+    width:30mm;
+    height:28mm;
+    left: 15mm;
+    top: 12mm;
+    background-color: lightskyblue;
+    border-radius: 0mm 0mm 100mm 100mm ;
+    box-shadow: -2mm 12mm 10mm rgb(39, 39, 39);
+}
+
+.id-darkblue-front{
+    position: absolute;
+    width:100mm;
+    height:90mm;
+    top: 33mm;
+    background-color: rgba(6, 6, 45, 0.896);
+    z-index: -1;   
+}
+.org-logo{
+    position: absolute;
+    top: 2mm;
+    left: 25mm;
+}
+.org-logo img{
+    border-radius: 100%;
+}
+.user-photo{
+    position: absolute;
+    top: 15mm;
+    left: 19.5mm;
+}
+.user-photo img{
+    border-radius: 100%;
+}
+.user-name{
+    position: absolute;
+    top: 45mm;
+    left: 10mm;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.3mm;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.id-title{
+    position: absolute;
+    top: 51mm;
+    left: 16mm;
+    color: rgba(229, 224, 224, 0.845);
+    font-size: 9pt;
+    font-family:'Courier New', Courier, monospace;
+}
+.id-number{
+    position: absolute;
+    top: 61mm;
+    left: 7mm;
+    color: rgb(213, 211, 211);
+    font-size: 8pt;
+    font-family:'Courier New', Courier, monospace;
+}
+.org-name{position: absolute;
+    top: 65mm;
+    left: 7mm;
+    color: rgb(213, 211, 211);
+    font-size: 8pt;
+    font-family:'Courier New', Courier, monospace;}
+.org-address{position: absolute;
+    top: 70mm;
+    left: 7mm;
+    color: rgb(213, 211, 211);
+    font-size: 8pt;
+    font-family:'Courier New', Courier, monospace;
+}
+.qr-code{
+    position: absolute;
+    bottom: 4mm;
+    left: 6mm;
+}
+
+.id-card-wrapper-back{
+    position: relative;
+    width: 59.00mm;
+    height: 98.77mm;
+    margin: 6.08mm;
+    border: 7pt solid black; 
+    overflow: hidden;
+    left: 67.02mm;
+    top: -109.8mm;
+}
+.id-card-background{
+    height: 100%;  
+}
+.id-darkblue-back{
+    position: absolute;
+    width:80mm;
+    height:70mm;
+    background-color: rgba(6, 6, 45, 0.896);
+    z-index: -1;
+}
+.id-lightblue1-back{
+    position: absolute;
+    width:51mm;
+    height:25mm;
+    left: 4.2mm;
+    bottom: 0mm;
+    background-color: lightskyblue;
+    border-radius: 11.3pt 11.3pt 0pt 0pt ;
+    border-top-left-radius: 19pt;
+    border-top-right-radius: 19pt;
+}
+.id-lightblue2-back{
+    position: absolute;
+    width:30mm;
+    height:28mm;
+    left: 15mm;
+    bottom: 10mm;
+    background-color: lightskyblue;
+    border-radius: 283.4pt 283.4pt 0pt 0pt ;
+    box-shadow: 2mm -10mm 10mm rgb(39, 39, 39);
+}
+.id-policy-heading{
+    position: absolute;
+    top:10mm;
+    left: 8mm;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+}
+.id-policy-content{
+    position: absolute;
+    top:15mm;
+    left: -2mm;
+    color: rgb(213, 211, 211);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6.5pt;
+    line-height: 3.5mm;
+}
+.id-issue-date{
+    position: absolute;
+    top: 45mm;
+    left: 14mm;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 8pt;     
+}
+.id-expiry-date{
+    position: absolute;
+    top: 50mm;
+    left: 14mm;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 8pt; 
+}
+
