@@ -1,0 +1,366 @@
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 59.002mm; /* 223px */
+    height: 83.872mm; /* 317px */
+    margin: 6.085mm; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+    left: 0pt; /* 0px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 10mm; /* 71.7px */
+    height: 1mm; /* 30px */
+    background-color: rgb(1, 1, 1);
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.id-card-wrapper-front .id-pink {
+    left: 49.036mm; /* 136px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 10mm; /* 90.8px */
+    height: 1mm; /* 30px */
+    background-color: rgb(4, 4, 4);
+    position: absolute;
+    top: 0mm; /* 0px */
+}
+
+.id-card-wrapper-front .id-light-pink {
+    left: 10.583mm; /* 68px */
+    margin-top: -0.243mm; /* -0.92px */
+    width: 38mm; /* 71.7px */
+    height: 30mm; /* 30px */
+    background-color: rgb(132, 44, 128);
+    position: absolute;
+    top: 0mm; /* 0px */
+    border-bottom-left-radius: 28.346pt;
+    border-bottom-right-radius:28.346pt;
+}
+
+.recttop{
+    left: -0.705mm;
+    margin-top: -0.243mm;
+    width: 12mm;
+    height: 1mm;
+    background-color: rgb(7, 0, 4);
+    position: absolute;
+    bottom: 0mm;
+    transform: skew(-50deg, 0deg);
+   
+}
+
+.recttop1{
+    left: 4.586mm;
+    margin-top: -0.243mm;
+    width: 50mm;
+    height: 50mm;
+    background-color: rgb(132, 44, 128);
+    position: absolute;
+    bottom: -42.686mm;
+    border-top-left-radius: 14.173pt;
+    transform: rotate(45deg);
+    
+   
+}
+
+.recttop2{
+    left: 47.625mm;
+    margin-top: -0.243mm;
+    width: 12mm;
+    height: 1mm;
+    background-color: rgb(7, 0, 4);
+    position: absolute;
+    bottom: 0mm;
+    transform: skew(50deg, 0deg);
+   
+}
+
+.recttop3{
+    margin-top: -0.243mm;
+    left: -0.352mm;
+    width: 12mm;
+    height: 1mm;
+    background-color: rgb(7, 0, 4);
+    position: absolute;
+    bottom: 0mm;
+    transform: skew(-50deg, 0deg);
+}
+.recttop4{
+    left: 4.586mm;
+    margin-top: -0.243mm;
+    width: 50mm;
+    height: 50mm;
+    background-color: rgb(132, 44, 128);
+    position: absolute;
+    bottom: -42.686mm;
+    border-top-left-radius: 5mm;
+    transform: rotate(45deg); 
+}
+.recttop5{
+    left:47.625mm;
+    margin-top: -0.243mm;
+    width: 12mm;
+    height: 1mm;
+    background-color: rgb(7, 0, 4);
+    position: absolute;
+    bottom: 0mm;
+    transform: skew(50deg, 0deg);
+}
+.org-logo {
+    text-align: center;
+    margin-bottom:5.027mm;
+    position: relative;
+    left: -17mm;
+    top: -7mm;
+    width: 90mm;
+
+}
+
+.org-logo img {
+    max-width: 20.25%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 2.645mm; /* 10px */
+    top: 2.645mm; /* 10px */
+    height: 26.458mm; /* 100px */
+    width: 26.458mm; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    width: 35mm; /* 25mm */
+    height: 35mm; /* 21mm */
+    position: absolute;
+    top: -9mm; /* 7mm */
+    left: 9.525mm; /* 56px */
+    border-radius: 35mm;
+}
+
+.user-name {
+    font-size: 11.338pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: relative;
+    top: 31mm;
+    left: 15mm;
+
+}
+
+.id-number {
+    font-size:8.503pt;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: relative;
+    top: 7mm;
+    left: 16mm;
+}
+
+.phone-number{
+    font-size: 8.503pt;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: relative;
+    top: -11mm;
+    left: 8mm;
+}
+
+.mail{
+    font-size: 8.503pt;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: relative;
+    top: -28mm;
+    left: 12mm;
+}
+
+.id-title {
+    font-size: 7pt;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: relative;
+    top: -20mm;
+    left: 16mm;
+}
+
+.org-name {
+    font-size:8.503pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: relative;
+    top: -30mm;
+    left: 16mm;
+    color: #0f0e0e;
+}
+
+.org-address {
+    font-size:8.503pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: relative;
+    top: -48mm;
+    left: 16mm;
+    color: #0b0b0b;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 59.002mm; /* 223px */
+    height: 83.872mm; /* 317px */
+    margin: 6.085mm; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left:67.204mm; /* 254px */
+    top: -90.222mm; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: 0mm; /* 0px */
+    margin-top: 76.2mm; /* 288px */
+    width: 10mm; /* 71.7px */
+    height: 1mm; /* 30px */
+    background-color: rgb(16, 15, 15);
+    position: absolute;
+    top:-76.2mm; /* 0px */
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    left: 49mm; /* 121px */
+    margin-top: 76.2mm; /* 288px */
+    width: 10mm; /* 109.6px */
+    height: 1mm; /* 30px */
+    background-color: rgb(7, 7, 7);
+    position: absolute;
+    top: -76.2mm; /* 0px */
+}
+
+.id-card-wrapper-back .id-light-pink-bottom {
+    left: 10.583mm; /* 64px */
+    margin-top: 76.2mm; /* 288px */
+    width: 38mm; /* 71.7px */
+    height: 1mm; /* 30px */
+    background-color: rgb(132, 44, 128);
+    position: absolute;
+    top: -76.2mm; /* 0px */
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 14.2875mm; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 19.05mm; /* 72px */
+    padding: 2.116mm; /* 8px */
+}
+
+.id-contact-info {
+    font-size: 9.962pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 2.645mm; /* 10px */
+    top: 2.645mm; /* 10px */
+    height: 26.458mm; /* 100px */
+    width:26.458mm; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 10mm;
+    height: 8mm;
+    border-radius: 5pt;
+    position: absolute;
+    top: -17.25mm;
+    left: 22.577mm;
+}
+
+.id-emergency-contact{
+    font-size:3mm;
+    position:relative;
+    top:-8mm;
+}
+.id-blood-group{
+    font-size: 3mm;
+    position: absolute;
+    top: 11mm;
+    left: 2mm;
+}
+.id-dob{
+    left: 2mm;
+    font-size: 3mm;
+    position: absolute;
+    top: 17mm;
+}
+.id-issue-date{
+    left: 2mm;
+    font-size: 8.503pt;
+    position: absolute;
+    top: 24mm;
+}
+.id-expiry-date{
+    left: 2mm;
+    font-size: 8.503pt;
+    position: absolute;
+    top: 30mm;
+}
+.id-barcode{
+    left: 2mm;
+    font-size: 8.503pt;
+    position: absolute;
+    top: 29mm;
+}
+.id-policy {
+    left: 2mm;
+    font-size: 7.653pt;
+    position: absolute;
+    top: 39mm;
+}
