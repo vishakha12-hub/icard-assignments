@@ -1,0 +1,528 @@
+.body{
+    font-family: Arial, sans-serif;
+}
+
+.id-card-wrapper-front {
+    position: absolute;
+    left:40mm;
+    top:50mm;
+    width: 180.25pt; /* 223px */
+    height: 250.75pt; /* 317px */
+    background-color: #015e65;
+    padding: 6.5mm;
+    margin: 2mm;
+}
+
+.id-card-content .user-name {
+    position: absolute;
+    left: 17mm;
+    top: 56mm;
+    color: white;
+    font-size: 19pt;    
+}
+
+.id-card-content .user-photo img{
+    position: relative;
+    left: 17mm;
+    top: 2mm;
+    color: white;
+    border: 2mm solid #fec501;
+    border-radius: 50%;
+    font-size: 15pt;
+    height: 30mm;
+    width: 30mm;
+    z-index: 3;
+}
+.org-name{
+    position: absolute;
+    top: 13mm;
+    left: 26mm;
+    font-size: 15pt;
+    text-align: centre;
+    color: white;
+}
+
+.id-card-content .org-logo {
+    position: absolute;
+    top: -2mm;
+    left: 29mm;
+    border-radius: 50%;  
+
+}
+  
+ .id-card-content .id-number {
+    font-size: 13pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 72mm;
+    left: 26mm;
+    color: white;
+}
+.id-card-content .id-title {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 65mm;
+    left: 23mm;
+    color: white;
+}
+  .Join-date{
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0mm;
+    position: absolute;
+    top: 80mm;
+    left: 22mm;
+    color: white;
+
+ }
+.id-card-content .org-logo img {
+
+    max-width: 46.25%; /* 27% */
+    height: auto;
+} 
+
+.id-card-wrapper-front .id-card-background .dot1{
+    position: absolute;
+    height: 0.6mm;
+    width: 0.6mm;
+    top: 7mm;
+    left: 6mm;
+    background-color: #f8f5f5;
+    border-radius: 50%;
+    /* display: inline-block; */
+    z-index: 3;
+}
+
+.id-card-wrapper-front .id-card-background .dot2{
+    position: absolute;
+    height: 0.6mm;
+    width: 0.6mm;
+    top: 7mm;
+    left: 8mm;
+    background-color: #f8f5f5;
+    border-radius: 50%;
+    /* display: inline-block; */
+    z-index: 3;
+}
+
+.id-card-wrapper-front .id-card-background .dot3{
+    position: absolute;
+    height: 0.6mm;
+    width: 0.6mm;
+    top: 7mm;
+    left: 10mm;
+    background-color: #f8f5f5;
+    border-radius: 50%;
+    /* display: inline-block; */
+    z-index: 3;
+}
+
+.Right-Arrow{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 3px 3px 0;
+    /* display: inline-block; */
+    padding: 3px;
+    top:90mm;
+    left:8mm;
+    position: absolute;
+    z-index: 3;
+    rotate:-30deg            
+}                
+
+.Right-Arrow1{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 3px 3px 0;
+    /* display: inline-block; */
+    padding: 3px;
+    top:90mm;
+    left:11mm;
+    position: absolute;
+    z-index: 3;
+    rotate:-30deg;
+}           
+
+.Right-Arrow2{
+    border: 1mm solid rgb(43, 161, 185);
+    border-width: 0 3px 3px 0;
+    /* display: inline-block; */
+    padding: 3px;
+    top: 90mm;
+    left: 14mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -30deg;
+}           
+
+.Right-Arrow3{
+    border: 1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top: 19mm;
+    left: 68mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -30deg;        
+}           
+
+.Right-Arrow4{
+    border: 1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top: 18mm;
+    left: 65mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -30deg;
+}           
+
+.Right-Arrow5{
+    border: 1mm solid rgb(43, 161, 185);
+    border-width: 0 0.79375mm 0.79375mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top: 17.5mm;
+    left: 62mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -30deg;
+}          
+
+.id-card-wrapper-front .id-card-background .star{
+    position: relative;
+    left: 6mm;
+    top: 13mm;
+    color: #fdc401;
+    z-index: 2;
+} 
+
+.id-card-wrapper-front .id-card-background .star1{
+    position: relative;
+    left: 55mm;
+    top: 32mm;
+    color: #fdc401;
+    z-index: 2;
+}
+
+.id-card-wrapper-front .id-card-background .star2{
+    position: absolute;
+    left: 10mm;
+    top: 72mm;
+    color: #fdc401;
+    z-index: 2;
+}
+
+.id-emergency-contact{
+    color: white;
+    font-size: 15pt;
+    margin-bottom: 39mm;
+    position: relative;
+    top: 26mm;
+    left: 5mm;
+    text-align: center;
+}  
+
+.Website{
+    position: absolute;
+    top: 88mm;
+    left: 23mm;
+    font-size: 13pt;
+    z-index: 3;
+    color: white;
+}  
+
+.id-card-wrapper-back {
+    position: absolute;
+    width: 210.25pt;
+    height: 288.75pt;
+    margin: 5mm;
+    background-color: rgb(146, 136, 52);
+    overflow: hidden;
+    left: 120mm;
+    top: 47mm;
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #fdc401;
+    height: 100%;
+}
+
+ .name{
+    position: absolute;
+    top:10mm;
+    left:20mm;
+    font-size: 20pt;
+    text-align: centre;
+}
+
+.qr-code{
+    position: absolute;
+    top: 20mm;
+    left: 24mm;
+}
+
+ .id-card-content .org-logo2 {
+    position:absolute;
+    top:15mm;
+    left:6mm;
+    border-radius: 50%;
+ }
+
+.Middle-Content{
+    position: absolute;
+    top: 84mm;
+    margin-left: 5mm;
+    margin-right: 1mm;
+    color: #171716;
+    font-size: 10pt;
+    z-index: 1;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.1mm solid blue;
+    background-color: rgb(0, 200, 255);
+    padding: 1mm;
+    width: 64mm;
+    height: 11mm;
+ } 
+
+.arrow{
+    border: 1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top: 10mm;
+    left: 5mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -31deg;
+       
+}
+
+.arrow-right1{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8;
+    top:10mm;
+    left:8mm;
+    position: absolute;
+    z-index: 3;
+    rotate:-31deg;    
+}         
+   
+.arrow-right2{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top:10mm;
+    left:11mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -31deg;        
+}
+.arrow-right3{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top:90mm;
+    left:60mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -35deg;
+          
+  }
+  .arrow-right4{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top:90mm;
+    left:57mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -31deg;      
+}
+
+.arrow-right5{
+    border:1mm solid rgb(43, 161, 185);
+    border-width: 0 1mm 1mm 0;
+    /* display: inline-block; */
+    padding: 0.8mm;
+    top:90mm;
+    left:54mm;
+    position: absolute;
+    z-index: 3;
+    rotate: -31deg;
+}                
+  
+.id-card-wrapper-back .id-card-content .Dot{
+    position: absolute;
+    left: 58mm;
+    top: 3mm;
+    width: 3mm;
+    height: 3mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+}  
+
+.id-card-wrapper-back .id-card-content .Dot1{
+    position: absolute;
+    left: 52mm;
+    top: 3mm;
+    width: 3mm;
+    height: 3mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+} 
+
+.id-card-wrapper-back .id-card-content .Dot2{
+    position: absolute;
+    left: 64mm;
+    top: 3mm;
+    width: 3mm;
+    height: 3mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+} 
+
+.id-card-wrapper-back .id-card-content .Dot3{
+    position: absolute;
+    left: 7mm;
+    top: 77mm;
+    width: 3mm;
+    height: 3mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+}
+
+.id-card-wrapper-back .id-card-content .Dot4{
+    position: absolute;
+    left: 12mm;
+    top: 77mm;
+    width: 3mm;
+    height: 3mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+} 
+
+.id-card-wrapper-back .id-card-content .Dot5{
+    position: absolute;
+    left:17mm;
+    top: 77mm;
+    width: 3mm;
+    height: 3mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+} 
+
+.id-card-wrapper-back .id-card-content .Dot6{
+    position: absolute;
+    left:29mm;
+    top: -6mm;
+    width: 15mm;
+    height: 15mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+}  
+
+.id-card-wrapper-back .id-card-content .Dot7{
+    position: absolute;
+    left:-6mm;
+    top: 36mm;
+    width: 15mm;
+    height: 15mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+}  
+
+.id-card-wrapper-back .id-card-content .Dot8{
+    position: absolute;
+    left:67mm;
+    top: 82mm;
+    width: 15mm;
+    height: 15mm;
+    border-radius: 50%;
+    border: 0.5mm solid rgb(0, 200, 255);
+    z-index: 3;
+} 
+
+.star3{
+    position: absolute;
+    left:61mm;
+    top:10mm;
+    color:  rgb(0, 200, 255);;
+    z-index: 2;
+} 
+.star4{
+    position: absolute;
+    left:33mm;
+    top:68mm;
+    color:  rgb(0, 200, 255);;
+    z-index: 2;
+
+} 
+.star5{
+    position: absolute;
+    left:60mm;
+    top:40mm;
+    color:  rgb(0, 200, 255);;
+    z-index: 2;
+
+} 
+.org-address{
+    position: relative;
+    top: -90mm;
+    left: 21mm;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+ .call-logo{
+    max-width: 20.25%;
+    top: 78mm;
+    left: 20mm;
+    position: absolute;
+} 
+
+.id-dob{
+    position: relative;
+    left: 14mm;
+    top: -118mm;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.id-issue-date{
+    position: relative;
+    left: 16mm;
+    top: -117mm;
+    font-size: 12pt;
+    color: black;
+    font-weight: bold;
+}
+
+.id-expiry-date{
+    position: relative;
+    left: 14mm;
+    top: -115mm;
+    font-size: 12pt;
+    color: black;
+    font-weight: bold;
+}
