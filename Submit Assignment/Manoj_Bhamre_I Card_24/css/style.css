@@ -1,0 +1,253 @@
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: white;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+    left: 11mm;
+    width: 122mm;
+    height: -16.5pt;
+    border: top 10mm;
+    border-bottom: 214mm solid #0d4777;
+    border-right: 73mm solid transparent;
+    position: absolute;
+    top: -64pt;
+    rotate: 65deg;
+
+}
+
+.id-card-wrapper-front .id-pink {
+    left: 13mm; /* 136px */
+    width: 0mm;
+    height: 0mm;
+    border-top: 24mm solid transparent;
+    border-right: 50mm solid #1492c4;
+    border-bottom: 68mm solid transparent;
+    border-left: 0mm solid transparent;
+    position: absolute;
+    top: -3mm;
+}
+
+.id-card-content .user-name {
+    font-size: 25pt;
+  text-align: center;
+  margin-bottom: 30mm;
+  position: absolute;
+  top: 27mm;
+  left: 15mm;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.id-card-content .user-name1 {
+    font-size: 30pt;
+  text-align: center;
+  margin-bottom: 30mm;
+  position: absolute;
+  top: 33mm;
+  left: 11mm;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+}
+
+.id-card-content .id-title {
+    font-size: 16pt;
+  text-align: center;
+  margin-bottom: 18mm;
+  position: absolute;
+  top: 46mm;
+  left: 2mm;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 56mm;
+
+}
+
+.id-card-content .circle {
+    width: 50px;
+  height: 50px;
+  background-color: #0d4777;
+  border-radius: 79%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -11mm;
+  margin-left: 3mm;
+ }
+
+ .id-card-content .half-circle {
+    width: 62px;
+  height: 32px;
+  background-color: #3498db;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  position: absolute;
+  rotate: 139deg;
+  margin-top: -9mm;
+  margin-left: 3mm;
+
+}
+
+.text {
+    width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 37px;
+  margin-top: -12mm;
+  margin-left: 6mm;
+  position: absolute;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 190.5pt; /* 254px */
+    top: -255.75pt; /* -341px */
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: -1mm;
+    margin-top: 67mm;
+    width: 0;
+    height: 9px;
+    border-bottom: 16mm solid #1492c4;
+    border-right: 25mm solid transparent;
+    position: absolute;
+    top: 0pt;
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    right: 0mm;
+    margin-top: -1mm;
+    width: 0;
+    height: 0;
+    border-top: 15mm solid #0d4777;
+    border-left: 24mm solid transparent;
+    position: absolute;
+    top: 0mm;
+}
+
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.id-card-content .Name{
+    position: absolute;
+    left: 15mm;
+    top: 20mm;
+    width: 35mm;
+    font-family: sub;
+  font-size: 17pt;
+  color: #0d4777;
+  text-align: center;
+  margin-left: -4mm;
+}
+
+.id-card-content .job-d{
+    position: absolute;
+    top: 26mm;
+    left: 11mm;
+    width: 53mm;
+    font-size: 10pt;
+    font-family: 'Roboto', sans-serif;
+    color: #1492c4;
+  }
+
+  .id-card-content .Mobile{
+    position: absolute;
+  top: 32mm;
+  left: 14mm;
+  width: 53mm;
+  font-size: 9pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0e88d9;
+  }
+
+  .id-card-content .Email{
+    position: absolute;
+    top: 35mm;
+    left: 10mm;
+    width: 53mm;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e88d9;
+  
+  }
+
+.id-card-content .website{
+    position: absolute;
+    top: 39mm;
+    left: 13mm;
+    width: 53mm;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e88d9;
+}
+
+
+.id-card-background .circle {
+    width: 70px;
+    height: 70px;
+    background-color: #0d4777;
+    border-radius: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14mm;
+    margin-left: 19mm;
+  
+ }
+
+ .id-card-background .half-circle {
+    width: 82px;
+    height: 42px;
+    background-color: #3498db;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    rotate: 139deg;
+    margin-top: -12mm;
+    margin-left: 20mm;
+  
+
+}
+
+.id-card-background .text {
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 61px;
+    margin-top: -19mm;
+    margin-left: 23mm;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
