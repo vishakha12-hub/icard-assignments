@@ -17,11 +17,11 @@ body {
 /* Visiting Card Styles */
 .id-card-wrapper-front {
     position: relative;
-    width: 167.25pt; /* 223px */
-    height: 237.75pt; /* 317px */
-    margin: 17.25pt; /* 23px */
+    width: 167.25pt;
+    height: 237.75pt;
+    margin: 17.25pt;
     background-color: #ffffff;
-    border: 0.75pt solid #ffffff; /* 1px */
+    border: 0.75pt solid #ffffff;
     overflow: hidden;
 }
 
@@ -44,8 +44,8 @@ body {
     position: absolute;
     left: -10pt;
     margin-top: -0.69pt;
-    width: 3px;
-    height: 0px;
+    width: 2.25pt;
+    height: 0pt;
     border-left: -0.95pt solid transparent;
     border-right: 67.05pt solid transparent;
     border-bottom: 15.5pt solid rgb(210, 32, 46);
@@ -56,8 +56,8 @@ body {
     position: absolute;
     left: -18pt;
     margin-top: -12.69pt;
-    width: 1px;
-    height: 0px;
+    width: 0.75pt;
+    height: 0pt;
     border-left: -23.95pt solid transparent;
     border-right: 105.05pt solid transparent;
     border-bottom: 20.5pt solid rgb(239, 101, 48);
@@ -68,8 +68,8 @@ body {
     position: absolute;
     left: 87pt;
     margin-top: -12.69pt;
-    width: 1px;
-    height: 0px;
+    width: 0.75pt;
+    height: 0pt;
     border-left: -23.95pt solid transparent;
     border-right: 105.05pt solid transparent;
     border-bottom: 13.5pt solid rgb(239, 101, 48);
@@ -80,8 +80,8 @@ body {
     position: absolute;
     left: 84pt;
     margin-top: -12.69pt;
-    width: 1px;
-    height: 0px;
+    width: 0.75pt;
+    height: 0pt;
     border-left: -23.95pt solid transparent;
     border-right: 95.05pt solid transparent;
     border-bottom: 16.5pt solid rgb(210, 32, 46);
@@ -93,8 +93,8 @@ body {
         position: absolute;
         left: -38pt;
         margin-top: -17pt;
-        width: -2px;
-        height: 43px;
+        width: -1.5pt;
+        height: 32.25pt;
         border-left: 124pt solid transparent;
         border-right: 121pt solid transparent;
         border-bottom: 64pt solid #fbeaea;
@@ -103,16 +103,16 @@ body {
 }
 .id-card-wrapper-front .rect-right{
     position: absolute;
-    width: 11px;
-    height: 58px;
+    width: 8.25pt;
+    height: 43.5pt;
     background-color: rgb(211, 32, 45);
     top: 167pt;
 
 }
 .id-card-wrapper-front .rect-left{
     position: absolute;
-    width: 11px;
-    height: 58px;
+    width: 8.25pt;
+    height: 43.5pt;
     background-color: rgb(211, 32, 45);
     top: 167pt;
     left: 159pt;
@@ -121,7 +121,7 @@ body {
 
 .org-logo {
     text-align: center;
-    margin-bottom: 14.25pt; /* 19px */
+    margin-bottom: 14.25pt;
 }
 
 .org-logo img {
@@ -131,22 +131,22 @@ body {
 
 .user-photo {
     position: absolute;
-    left: 19.5pt; /* 10px */
-    top: 39.5pt; /* 10px */
-    height: 75pt; /* 100px */
-    width: 75pt; /* 100px */
+    left: 19.5pt; 
+    top: 39.5pt;
+    height: 75pt;
+    width: 75pt;
     border-radius: 50%;
     object-fit: cover;
     z-index: 10;
 }
 
 .user-photo img {
-    width: 18.75mm; /* 25mm */
-    height: 15.75mm; /* 21mm */
+    width: 18.75mm;
+    height: 15.75mm;
     border-radius: 5pt;
     position: absolute;
-    top: 5.25mm; /* 7mm */
-    left: 42pt; /* 56px */
+    top: 5.25mm;
+    left: 42pt;
 }
 
 .user-name {
@@ -201,14 +201,14 @@ body {
 
 .id-card-wrapper-back {
     position: relative;
-    width: 167.25pt; /* 223px */
-    height: 237.75pt; /* 317px */
-    margin: 17.25pt; /* 23px */
+    width: 167.25pt;
+    height: 237.75pt;
+    margin: 17.25pt;
     background-color: #ffffff;
-    border: 0.75pt solid #ffffff; /* 1px */
+    border: 0.75pt solid #ffffff;
     overflow: hidden;
-    left: 190.5pt; /* 254px */
-    top: -255.75pt; /* -341px */
+    left: 190.5pt;
+    top: -255.75pt; 
 }
 
 .id-card-wrapper-back .id-card-background {
@@ -230,8 +230,8 @@ body {
     position: absolute;
     left: -37pt;
     margin-top: -17pt;
-    width: -2px;
-    height: 43px;
+    width: -1.5pt;
+    height: 32.25pt;
     border-left: 124pt solid transparent;
     border-right: 121pt solid transparent;
     border-bottom: 64pt solid #fbeaea;
@@ -244,8 +244,8 @@ body {
     position: absolute;
     left: 107pt;
     margin-top: -0.69pt;
-    width: 3px;
-    height: 0px;
+    width: 2.25pt;
+    height: 0pt;
     /* border-left: -0.95pt solid transparent; */
     border-right: 67.05pt solid transparent;
     border-bottom: 15.5pt solid rgb(210, 32, 46);
@@ -256,8 +256,8 @@ body {
     position: absolute;
     left: -21pt;
     margin-top: -12.69pt;
-    width: 1px;
-    height: 0px;
+    width: 0.75pt;
+    height: 0pt;
     border-left: -23.95pt solid transparent;
     border-right: 105.05pt solid transparent;
     border-bottom: 13.5pt solid rgb(239, 101, 48);
@@ -268,8 +268,8 @@ body {
     position: absolute;
     left: -10pt;
     margin-top: -12.69pt;
-    width: 1px;
-    height: 0px;
+    width: 0.75pt;
+    height: 0pt;
     border-left: -23.95pt solid transparent;
     border-right: 95.05pt solid transparent;
     border-bottom: 16.5pt solid rgb(210, 32, 46);
@@ -280,8 +280,8 @@ body {
     position: absolute;
     left: 82pt;
     margin-top: -12.69pt;
-    width: 1px;
-    height: 0px;
+    width: 0.75pt;
+    height: 0pt;
     border-left: -23.95pt solid transparent;
     border-right: 105.05pt solid transparent;
     border-bottom: 20.5pt solid rgb(239, 101, 48);
@@ -292,17 +292,17 @@ body {
 /* Content Styles */
 .id-card-content {
     position: absolute;
-    top: 40.5pt; /* 54px */
+    top: 40.5pt;
 }
 
 .id-card-wrapper-back .id-card-content {
     position: absolute;
-    top: 57pt; /* 72px */
-    padding: 6pt; /* 8px */
+    top: 57pt;
+    padding: 6pt;
 }
 
 .id-contact-info {
-    font-size: 0.8333em;
+    font-size: 1pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 18mm;
@@ -328,7 +328,7 @@ body {
     border-radius: 5pt;
     position: absolute;
     top: -14.25mm; /* -19mm */
-    left: 42pt; /* 56px */
+    left: 42pt;
 }
 
 .id-emergency-contact {
@@ -339,7 +339,7 @@ body {
     width: 50mm;
     z-index: 1;
     position: absolute;
-    line-height: 23px;
+    line-height: 17.25pt;
 }
 .id-blood-group {
     margin-top: 7.3mm;
