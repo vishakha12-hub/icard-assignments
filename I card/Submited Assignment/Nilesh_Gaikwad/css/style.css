@@ -1,0 +1,390 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt;
+    height: 237.75pt;
+    margin: 17.25pt;
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff;
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+    left: 0pt;
+    margin-top: -2.69pt;
+    width: 166.775pt;
+    height: 127.5pt;
+    background-color: #3e1f2e;
+    position: absolute;
+    top: 3pt;
+}
+
+.id-card-wrapper-front .id-pink {
+    position: absolute;
+    left: -10pt;
+    margin-top: -0.69pt;
+    width: 2.25pt;
+    height: 0pt;
+    border-left: -0.95pt solid transparent;
+    border-right: 67.05pt solid transparent;
+    border-bottom: 15.5pt solid rgb(210, 32, 46);
+    top: 75pt;
+    transform: rotate(-17deg);
+}
+.id-card-wrapper-front .id-orange {
+    position: absolute;
+    left: -18pt;
+    margin-top: -12.69pt;
+    width: 0.75pt;
+    height: 0pt;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 20.5pt solid rgb(239, 101, 48);
+    top: 99.5pt;
+    transform: rotate(-28deg);
+}
+.id-card-wrapper-front .id-orange-right {
+    position: absolute;
+    left: 87pt;
+    margin-top: -12.69pt;
+    width: 0.75pt;
+    height: 0pt;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 13.5pt solid rgb(239, 101, 48);
+    top: 95.6pt;
+    transform: rotate(181deg);
+}
+.id-card-wrapper-front .id-red {
+    position: absolute;
+    left: 84pt;
+    margin-top: -12.69pt;
+    width: 0.75pt;
+    height: 0pt;
+    border-left: -23.95pt solid transparent;
+    border-right: 95.05pt solid transparent;
+    border-bottom: 16.5pt solid rgb(210, 32, 46);
+    top: 100.6pt;
+    transform: rotate(188deg);
+}
+
+.id-card-wrapper-front .id-light-pink {
+        position: absolute;
+        left: -38pt;
+        margin-top: -17pt;
+        width: -1.5pt;
+        height: 32.25pt;
+        border-left: 124pt solid transparent;
+        border-right: 121pt solid transparent;
+        border-bottom: 64pt solid #fbeaea;
+        top: 66pt;
+        z-index: 10;
+}
+.id-card-wrapper-front .rect-right{
+    position: absolute;
+    width: 8.25pt;
+    height: 43.5pt;
+    background-color: rgb(211, 32, 45);
+    top: 167pt;
+
+}
+.id-card-wrapper-front .rect-left{
+    position: absolute;
+    width: 8.25pt;
+    height: 43.5pt;
+    background-color: rgb(211, 32, 45);
+    top: 167pt;
+    left: 159pt;
+
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt;
+}
+
+.org-logo img {
+    max-width: 40%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    left: 19.5pt; 
+    top: 39.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.user-photo img {
+    width: 18.75mm;
+    height: 15.75mm;
+    border-radius: 5pt;
+    position: absolute;
+    top: 5.25mm;
+    left: 42pt;
+}
+
+.user-name {
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 36mm;
+    left: 11mm;
+}
+
+.id-number {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 43mm;
+    left: 21mm;
+}
+
+.id-title {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 48mm;
+    left: 12mm;
+}
+
+.org-name {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 54mm;
+    left: 8mm;
+}
+
+.org-address {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2mm;
+    position: absolute;
+    top: 60mm;
+    left: 16mm;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt;
+    height: 237.75pt;
+    margin: 17.25pt;
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff;
+    overflow: hidden;
+    left: 190.5pt;
+    top: -255.75pt; 
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #fbeaea;
+    height: 100%;
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: 0pt;
+    /* margin-top: -2.69pt; */
+    width: 166.775pt;
+    height: 127.5pt;
+    background-color: #3e1f2e;
+    position: absolute;
+    top: 166pt;
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    position: absolute;
+    left: -37pt;
+    margin-top: -17pt;
+    width: -1.5pt;
+    height: 32.25pt;
+    border-left: 124pt solid transparent;
+    border-right: 121pt solid transparent;
+    border-bottom: 64pt solid #fbeaea;
+    top: 167pt;
+    z-index: 10;
+    transform: rotate(180deg);
+}
+
+.id-card-wrapper-back .id-light-pink-bottom {
+    position: absolute;
+    left: 107pt;
+    margin-top: -0.69pt;
+    width: 2.25pt;
+    height: 0pt;
+    /* border-left: -0.95pt solid transparent; */
+    border-right: 67.05pt solid transparent;
+    border-bottom: 15.5pt solid rgb(210, 32, 46);
+    top: 209pt;
+    transform: rotate(163deg);
+}
+.id-card-wrapper-back .id-orange-bottom {
+    position: absolute;
+    left: -21pt;
+    margin-top: -12.69pt;
+    width: 0.75pt;
+    height: 0pt;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 13.5pt solid rgb(239, 101, 48);
+    top: 215.6pt;
+    transform: rotate(358deg)
+}
+.id-card-wrapper-back .id-red-bottom {
+    position: absolute;
+    left: -10pt;
+    margin-top: -12.69pt;
+    width: 0.75pt;
+    height: 0pt;
+    border-left: -23.95pt solid transparent;
+    border-right: 95.05pt solid transparent;
+    border-bottom: 16.5pt solid rgb(210, 32, 46);
+    top: 206.6pt;
+    transform: rotate(365deg);
+}
+.id-card-wrapper-back .id-orange {
+    position: absolute;
+    left: 82pt;
+    margin-top: -12.69pt;
+    width: 0.75pt;
+    height: 0pt;
+    border-left: -23.95pt solid transparent;
+    border-right: 105.05pt solid transparent;
+    border-bottom: 20.5pt solid rgb(239, 101, 48);
+    top: 200.5pt;
+    transform: rotate(152deg);
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt;
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 57pt;
+    padding: 6pt;
+}
+
+.id-contact-info {
+    font-size: 1pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 17.5pt;
+    top: -9.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.qr-code img {
+    width: 15mm; /* 20mm */
+    height: 12mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -14.25mm; /* -19mm */
+    left: 42pt;
+}
+
+.id-emergency-contact {
+    margin-top: -6mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index: 1;
+    position: absolute;
+    line-height: 17.25pt;
+}
+.id-blood-group {
+    margin-top: 7.3mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-dob{
+    margin-top: 14mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+.id-issue-date{
+    margin-top: 20mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:1;
+    position:absolute;
+}
+
+.id-expiry-date{
+    margin-top: 26mm;
+    margin-left: 8mm;
+    font-size: 3.5mm;
+    color: rgb(0, 0, 0);
+    width: 50mm;
+    z-index:18;
+    position:absolute;
+}
+
+.id-policy {
+    margin-top: 32mm;
+    margin-left: 8mm;
+    font-size: 2.8mm;
+    color: rgb(0, 0, 0);
+    width: 45mm;
+    z-index:15;
+    position:absolute;
+}
